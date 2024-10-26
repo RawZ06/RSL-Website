@@ -16,6 +16,5 @@ export default defineNuxtConfig({
     experimental: {
       openAPI: true
     },
-    preset: 'cloudflare',
   },
 });
