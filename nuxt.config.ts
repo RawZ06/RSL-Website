@@ -15,6 +15,11 @@ export default defineNuxtConfig({
   nitro: {
     experimental: {
       openAPI: true
+    },
+    preset: 'cloudflare',
+    prerender: {
+      routes: ["/"]
     }
-  }
+  },
+  ssr: true
 });
