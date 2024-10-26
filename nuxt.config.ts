@@ -12,4 +12,9 @@ export default defineNuxtConfig({
     "@nuxt/eslint",
     '@pinia/nuxt',
   ],
+  nitro: {
+    experimental: {
+      openAPI: true
+    }
+  }
 });
