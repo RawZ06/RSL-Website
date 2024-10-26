@@ -17,4 +17,5 @@ export default defineNuxtConfig({
       openAPI: true
     },
   },
+  ssr: false
 });
