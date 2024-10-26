@@ -17,9 +17,5 @@ export default defineNuxtConfig({
       openAPI: true
     },
     preset: 'cloudflare',
-    prerender: {
-      routes: ["/"]
-    }
   },
-  ssr: true
 });
