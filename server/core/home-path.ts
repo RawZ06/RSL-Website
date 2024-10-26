@@ -1,5 +1,5 @@
 export function homePath() {
-    if(process.env.NODE_ENV !== 'production') {
+    if(typeof process.cwd !== 'function') {
         return '/'
     } else {
         return process.cwd()
