@@ -82,11 +82,11 @@
   },
   "enable_distribution_file": {
     "name": "Enable Plandomizer (Advanced)",
-    "description": "Optional. Use a plandomizer JSON file to gettotal control over the item placement.        "
+    "description": "Optional. Use a plandomizer JSON file to get total control over the item placement.        "
   },
   "enable_cosmetic_file": {
     "name": "Enable Cosmetic Plandomizer (Advanced)",
-    "description": "Optional. Use a cosmetic plandomizer JSON file to getmore control over your cosmetic and sound settings.        "
+    "description": "Optional. Use a cosmetic plandomizer JSON file to get more control over your cosmetic and sound settings.        "
   },
   "distribution_file": {
     "name": "Plandomizer File",
@@ -104,7 +104,7 @@
   },
   "show_seed_info": {
     "name": "Show Seed Info on File Screen",
-    "description": "Display the version number, generation time, and usermessage on the file screen.        "
+    "description": "Display the version number, generation time, and user message on the file screen.        "
   },
   "user_message": {
     "name": "User-Configurable Message",
@@ -135,11 +135,11 @@
   },
   "create_patch_file": {
     "name": ".zpf (Patch File)",
-    "description": "Patch files are used to send the patched data to otherpeople without sending the ROM file.        "
+    "description": "Patch files are used to send the patched data to other people without sending the ROM file.        "
   },
   "create_compressed_rom": {
     "name": ".z64 (N64/Emulator)",
-    "description": "A \"compressed\" .z64 ROM file for use onN64 emulators or with an N64 flash cart.        "
+    "description": "A \"compressed\" .z64 ROM file for use on N64 emulators or with an N64 flash cart.        "
   },
   "create_wad_file": {
     "name": ".wad (Wii VC)",
@@ -147,7 +147,7 @@
   },
   "create_uncompressed_rom": {
     "name": "Uncompressed ROM (Development)",
-    "description": "Uncompressed ROMs may be helpful for developersbut should not be used to play through a seednormally as it will very likely cause crashes.Use a compressed ROM instead.        "
+    "description": "Uncompressed ROMs may be helpful for developers but should not be used to play through a seed normally as it will very likely cause crashes. Use a compressed ROM instead.        "
   },
   "wad_file": {
     "name": "Base WAD File"
@@ -161,11 +161,11 @@
   },
   "presets": {
     "name": "",
-    "description": "Select a setting preset to apply.\n\nDefault/Beginner is aimed at those familiar with the vanilla game who desire a similar progression.Uses base glitchless logic. No timesavers (See the tab \"Other\") are enabled in this presetand the world begins closed. Expect a long playthrough.\n\nEasy Mode is aimed at those who have perhaps seen a few randomizer runs previously and/orwish to dive right in. Uses base glitchless logic. Most timesavers (See the tab \"Other\")are enabled and the world is more open after leaving Kokiri Forest.\n\nHell Mode is designed to be as frustrating an experience as possible, with every setting enabledto provide maximum randomness as well as things like one-hit-KO, one-bonk-KO and max ice traps.It still uses glitchless logic to ensure a beatable seed. However, be aware that all glitchless\"tricks\" are enabled which have the potential to require the player to perform difficult techniques.Expect a long and painful playthrough, even with good note-taking.\n\nThe other presets are for racing and/or tournaments.\n\nAfter a preset is loaded, the settings can be viewed/changed in the other tabs beforegenerating a seed."
+    "description": "Select a setting preset to apply.\n\nDefault/Beginner is aimed at those familiar with the vanilla game who desire a similar progression. Uses base glitchless logic. No timesavers (See the tab \"Other\") are enabled in this preset and the world begins closed. Expect a long playthrough.\n\nEasy Mode is aimed at those who have perhaps seen a few randomizer runs previously and/or wish to dive right in. Uses base glitchless logic. Most timesavers (See the tab \"Other\") are enabled and the world is more open after leaving Kokiri Forest.\n\nHell Mode is designed to be as frustrating an experience as possible, with every setting enabled to provide maximum randomness as well as things like one-hit-KO, one-bonk-KO and max ice traps. It still uses glitchless logic to ensure a beatable seed. However, be aware that all glitchless\"tricks\" are enabled which have the potential to require the player to perform difficult techniques. Expect a long and painful playthrough, even with good note-taking.\n\nThe other presets are for racing and/or tournaments.\n\nAfter a preset is loaded, the settings can be viewed/changed in the other tabs before generating a seed."
   },
   "password_lock": {
     "name": "Lock Seed Behind Password",
-    "description": "Starting the seed will be locked behind a password provided in the spoiler log.The password is a sequence of 6 button presses (A and C).        "
+    "description": "Starting the seed will be locked behind a password provided in the spoiler log. The password is a sequence of 6 button presses (A and C).        "
   },
   "randomize_settings": {
     "name": "Randomize Main Rule Settings",
@@ -173,27 +173,27 @@
   },
   "logic_rules": {
     "name": "Logic Rules",
-    "description": "Logic provides guiding sets of rules for world generationwhich the Randomizer uses to ensure the generated seedsare beatable.\n\n'Glitchless': No glitches are required, but may requiresome minor tricks. Add minor tricks to consider for logicin the 'Detailed Logic' tab.\n\n'Glitched': Movement-oriented glitches are likely required.No locations excluded.\n\n'No Logic': Maximize randomization, All locations areconsidered available. MAY BE IMPOSSIBLE TO BEAT.        "
+    "description": "Logic provides guiding sets of rules for world generation which the Randomizer uses to ensure the generated seeds are beatable.\n\n'Glitchless': No glitches are required, but may require some minor tricks. Add minor tricks to consider for logic in the 'Detailed Logic' tab.\n\n'Glitched': Movement-oriented glitches are likely required. No locations excluded.\n\n'No Logic': Maximize randomization, All locations are considered available. MAY BE IMPOSSIBLE TO BEAT.        "
   },
   "reachable_locations": {
     "name": "Guarantee Reachable Locations",
-    "description": "This determines which items and locations are guaranteed to be reachable.\n\n'All': The randomizer will guarantee that every item is obtainable and every location is reachable.\n\n'All Goals': The randomizer will guarantee that every goal item is obtainable, not just the amount requiredto beat the game, but otherwise behaves like 'Required Only'.Goal items are the items required for the rainbow bridge and/or Ganon's Boss Key, so for example if the bridge isset to 1 Medallion and Ganon's Boss Key to 1 Gold Skulltula Token, all 6 Medallions and all 100 Tokens willbe obtainable. In Triforce Hunt, this will instead guarantee that all Triforce Pieces can be obtained. Hintdistributions that define custom goals or remove the default goals will affect item placement as well.\n\n'Required Only': Only items and locations required to beat the game will be guaranteed reachable.        "
+    "description": "This determines which items and locations are guaranteed to be reachable.\n\n'All': The randomizer will guarantee that every item is obtainable and every location is reachable.\n\n'All Goals': The randomizer will guarantee that every goal item is obtainable, not just the amount required to beat the game, but otherwise behaves like 'Required Only'. Goal items are the items required for the rainbow bridge and/or Ganon's Boss Key, so for example if the bridge is set to 1 Medallion and Ganon's Boss Key to 1 Gold Skulltula Token, all 6 Medallions and all 100 Tokens will be obtainable. In Triforce Hunt, this will instead guarantee that all Triforce Pieces can be obtained. Hint distributions that define custom goals or remove the default goals will affect item placement as well.\n\n'Required Only': Only items and locations required to beat the game will be guaranteed reachable.        "
   },
   "triforce_hunt": {
     "name": "Triforce Hunt",
-    "description": "Pieces of the Triforce have been scattered around the world.Find some of them to beat the game.\n\nGame is saved on completion, and Ganon's Castle key is givenif beating the game again is desired.        "
+    "description": "Pieces of the Triforce have been scattered around the world. Find some of them to beat the game.\n\nGame is saved on completion, and Ganon's Castle key is given if beating the game again is desired.        "
   },
   "triforce_count_per_world": {
     "name": "Triforces Per World",
-    "description": "Select the amount of Triforce Pieces placed in each world.Each world will have the same number of triforces.\n\nA good number to choose is 1.5 times the amount ofTriforce Pieces required per world, for example 30Triforces placed with a goal of 20. Higher ratios willresult in easier and shorter seeds, while a ratio closerto 1 will generally be longer and more difficult.        "
+    "description": "Select the amount of Triforce Pieces placed in each world. Each world will have the same number of triforces.\n\nA good number to choose is 1.5 times the amount of Triforce Pieces required per world, for example 30 Triforces placed with a goal of 20. Higher ratios will result in easier and shorter seeds, while a ratio closer to 1 will generally be longer and more difficult.        "
   },
   "triforce_goal_per_world": {
     "name": "Required Triforces Per World",
-    "description": "Select the amount of Triforce Pieces required to beat the game.\n\nIn multiworld, the required amount will be per world collectively.For example, if this is set to 20 in a 2 player multiworld, playersneed 40 total, but one player could obtain 30 and the other 10.        "
+    "description": "Select the amount of Triforce Pieces required to beat the game.\n\nIn multiworld, the required amount will be per world collectively. For example, if this is set to 20 in a 2 player multiworld, players need 40 total, but one player could obtain 30 and the other 10.        "
   },
   "lacs_condition": {
     "name": "LACS Condition",
-    "description": "Sets the condition for the Light Arrow Cutscenecheck to give you the item from Zelda.\n\n'Vanilla': Shadow and Spirit Medallions.'Stones': A configurable amount of Spiritual Stones.'Medallions': A configurable amount of Medallions.'Dungeon Rewards': A configurable amount of Dungeon Rewards.'Tokens': A configurable amount of Gold Skulltula Tokens.'Hearts': A configurable amount of hearts.        "
+    "description": "Sets the condition for the Light Arrow Cutscene check to give you the item from Zelda.\n\n'Vanilla': Shadow and Spirit Medallions.'Stones': A configurable amount of Spiritual Stones.'Medallions': A configurable amount of Medallions.'Dungeon Rewards': A configurable amount of Dungeon Rewards.'Tokens': A configurable amount of Gold Skulltula Tokens.'Hearts': A configurable amount of hearts.        "
   },
   "lacs_medallions": {
     "name": "Medallions Required for LACS",
@@ -205,15 +205,15 @@
   },
   "lacs_rewards": {
     "name": "Dungeon Rewards Required for LACS",
-    "description": "Select the amount of Dungeon Rewards (Medallions and Spiritual Stones)required to trigger the Light Arrow Cutscene.        "
+    "description": "Select the amount of Dungeon Rewards (Medallions and Spiritual Stones) required to trigger the Light Arrow Cutscene.        "
   },
   "lacs_tokens": {
     "name": "Gold Skulltula Tokens Required for LACS",
-    "description": "Select the amount of Gold Skulltula Tokensrequired to trigger the Light Arrow Cutscene.        "
+    "description": "Select the amount of Gold Skulltula Tokens required to trigger the Light Arrow Cutscene.        "
   },
   "lacs_hearts": {
     "name": "Hearts Required for LACS",
-    "description": "Select the amount of heartsrequired to trigger the Light Arrow Cutscene.        "
+    "description": "Select the amount of hearts required to trigger the Light Arrow Cutscene.        "
   },
   "bridge": {
     "name": "Rainbow Bridge Requirement",
@@ -229,7 +229,7 @@
   },
   "bridge_rewards": {
     "name": "Dungeon Rewards Required for Bridge",
-    "description": "Select the amount of Dungeon Rewards (Medallions and Spiritual Stones)required to spawn the rainbow bridge.        "
+    "description": "Select the amount of Dungeon Rewards (Medallions and Spiritual Stones) required to spawn the rainbow bridge.        "
   },
   "bridge_tokens": {
     "name": "Skulltulas Required for Bridge",
@@ -245,11 +245,11 @@
   },
   "trials": {
     "name": "Ganon's Trials Count",
-    "description": "Trials are randomly selected. If hints areenabled, then there will be hints for whichtrials need to be completed.        "
+    "description": "Trials are randomly selected. If hints are enabled, then there will be hints for which trials need to be completed.        "
   },
   "shuffle_ganon_bosskey": {
     "name": "Ganon's Boss Key",
-    "description": "'Remove': Ganon's Castle Boss Key is removedand the boss door in Ganon's Tower starts unlocked.\n\n'Vanilla': Ganon's Castle Boss Key will appear inthe vanilla location.\n\n'Own Dungeon': Ganon's Castle Boss Key can only appearinside Ganon's Castle.\n\n'Regional': Ganon's Castle Boss Key can only appearin Hyrule Field, Lon Lon Ranch, Market, Temple of Time, Hyrule Castle,(Outside) Ganon's Castle, and Inside Ganon's Castle.\n\n'Overworld Only': Ganon's Castle Boss Key can only appearoutside of dungeons.\n\n'Any Dungeon': Ganon's Castle Boss Key can only appearinside of a dungeon, but not necessarily Ganon's Castle.\n\n'Anywhere': Ganon's Castle Boss Key can appearanywhere in the world.\n\n'Light Arrow Cutscene': Ganon's Castle Boss Key willappear on the Light Arrow Cutscene.\n\n'Stones': Ganon's Castle Boss Key will be awardedwhen reaching the target number of Spiritual Stones.\n\n'Medallions': Ganon's Castle Boss Key will be awardedwhen reaching the target number of Medallions.\n\n'Dungeon Rewards': Ganon's Castle Boss Key will be awardedwhen reaching the target number of Dungeon Rewards.\n\n'Tokens': Ganon's Castle Boss Key will be awardedwhen reaching the target number of Gold Skulltula Tokens.\n\n'Hearts': Ganon's Castle Boss Key will be awardedwhen reaching the target number of hearts.        "
+    "description": "'Remove': Ganon's Castle Boss Key is removed and the boss door in Ganon's Tower starts unlocked.\n\n'Vanilla': Ganon's Castle Boss Key will appear in the vanilla location.\n\n'Own Dungeon': Ganon's Castle Boss Key can only appear inside Ganon's Castle.\n\n'Regional': Ganon's Castle Boss Key can only appear in Hyrule Field, Lon Lon Ranch, Market, Temple of Time, Hyrule Castle, Outside Ganon's Castle and Inside Ganon's Castle.\n\n'Overworld Only': Ganon's Castle Boss Key can only appear outside of dungeons.\n\n'Any Dungeon': Ganon's Castle Boss Key can only appear inside of a dungeon, but not necessarily Ganon's Castle.\n\n'Anywhere': Ganon's Castle Boss Key can appear anywhere in the world.\n\n'Light Arrow Cutscene': Ganon's Castle Boss Key will appear on the Light Arrow Cutscene.\n\n'Stones': Ganon's Castle Boss Key will be awarded when reaching the target number of Spiritual Stones.\n\n'Medallions': Ganon's Castle Boss Key will be awarded when reaching the target number of Medallions.\n\n'Dungeon Rewards': Ganon's Castle Boss Key will be awarded when reaching the target number of Dungeon Rewards.\n\n'Tokens': Ganon's Castle Boss Key will be awarded when reaching the target number of Gold Skulltula Tokens.\n\n'Hearts': Ganon's Castle Boss Key will be awarded when reaching the target number of hearts.        "
   },
   "ganon_bosskey_medallions": {
     "name": "Medallions Required for Ganon's BK",
@@ -261,39 +261,39 @@
   },
   "ganon_bosskey_rewards": {
     "name": "Dungeon Rewards Required for Ganon's BK",
-    "description": "Select the amount of Dungeon Rewards (Medallions and Spiritual Stones)required to receive Ganon's Castle Boss Key.        "
+    "description": "Select the amount of Dungeon Rewards (Medallions and Spiritual Stones) required to receive Ganon's Castle Boss Key.        "
   },
   "ganon_bosskey_tokens": {
     "name": "Gold Skulltula Tokens Required for Ganon's BK",
-    "description": "Select the amount of Gold Skulltula Tokensrequired to receive Ganon's Castle Boss Key.        "
+    "description": "Select the amount of Gold Skulltula Tokens required to receive Ganon's Castle Boss Key.        "
   },
   "ganon_bosskey_hearts": {
     "name": "Hearts Required for Ganon's BK",
-    "description": "Select the amount of heartsrequired to receive Ganon's Castle Boss Key.        "
+    "description": "Select the amount of hearts required to receive Ganon's Castle Boss Key.        "
   },
   "shuffle_dungeon_rewards": {
     "name": "Shuffle Dungeon Rewards",
-    "description": "This controls where Medallions and Spiritual Stones canappear.\n\n'Vanilla Locations': Medallions and Spiritual Stones willappear in their vanilla locations.\n\n'Dungeon Reward Locations': Medallions and SpiritualStones will be awarded when stepping into the blue warpsof boss rooms, but not necessarily the boss's vanillareward. In Multiworld, dungeon rewards will only appearin their own world.\n\nIf you use one of the following options, note that afterreceiving the last required medallion for the BurningKakariko cutscene while already in Kakariko, the cutscenedoesn't play until you leave and reenter Kakariko (or enterand exit a building).\n\n'Own Dungeon': Each dungeon reward appears in its respectivedungeon, but not necessarily on the boss. If boss entrancesare mixed, boss rooms that aren't in a dungeon can't havedungeon rewards. The Light Medallion appears in the Templeof Time, or may be a starting item if the \"Free Reward fromRauru\" setting is enabled.\n\n'Regional': Dungeon rewards can only appear in regionsnear the original dungeon (including the dungeonitself or other dungeons in the region).<a href=\"https://wiki.ootrandomizer.com/index.php?title=Hints#Hint_Regions\" target=\"_blank\">The Wiki has a list of corresponding regions here.</a>\n\n'Overworld Only': Dungeon rewards can only appearoutside of dungeons.\n\n'Any Dungeon': Dungeon rewards can only appearinside of dungeons.\n\n'Anywhere': Dungeon rewards can appear anywherein the world.        "
+    "description": "This controls where Medallions and Spiritual Stones can appear.\n\n'Vanilla Locations': Medallions and Spiritual Stones will appear in their vanilla locations.\n\n'Dungeon Reward Locations': Medallions and Spiritual Stones will be awarded when stepping into the blue warps of boss rooms, but not necessarily the boss's vanilla reward. In Multiworld, dungeon rewards will only appear in their own world.\n\nIf you use one of the following options, note that after receiving the last required medallion for the Burning Kakariko cutscene while already in Kakariko, the cutscene doesn't play until you leave and reenter Kakariko (or enterand exit a building).\n\n'Own Dungeon': Each dungeon reward appears in its respective dungeon, but not necessarily on the boss. If boss entrances are mixed, boss rooms that aren't in a dungeon can't have dungeon rewards. The Light Medallion appears in the Temple of Time, or may be a starting item if the \"Free Reward from Rauru\" setting is enabled.\n\n'Regional': Dungeon rewards can only appear in regions near the original dungeon (including the dungeon itself or other dungeons in the region).<a href=\"https://wiki.ootrandomizer.com/index.php?title=Hints#Hint_Regions\" target=\"_blank\">The Wiki has a list of corresponding regions here.</a>\n\n'Overworld Only': Dungeon rewards can only appear outside of dungeons.\n\n'Any Dungeon': Dungeon rewards can only appear inside of dungeons.\n\n'Anywhere': Dungeon rewards can appear anywhere in the world.        "
   },
   "shuffle_bosskeys": {
     "name": "Boss Keys",
-    "description": "'Remove': Boss Keys are removed. All lockeddoors in dungeons will be unlocked. An easiermode.\n\n'Vanilla': Boss Keys will appear in theirvanilla locations.\n\n'Own Dungeon': Boss Keys can only appear in theirrespective dungeon.\n\n'Regional': Boss Keys can only appear in regionsnear the original dungeon (including the dungeonitself or other dungeons in the region).<a href=\"https://wiki.ootrandomizer.com/index.php?title=Hints#Hint_Regions\" target=\"_blank\">The Wiki has a list of corresponding regions here.</a>\n\n'Overworld Only': Boss Keys can only appear outsideof dungeons. You may need to enter a dungeon withoutthe boss key to get items required to find the keyin the overworld.\n\n'Any Dungeon': Boss Keys can only appear insideof any dungeon, but won't necessarily be in thedungeon that the key is for. A difficult mode sinceit is more likely to need to enter a dungeonmultiple times.\n\n'Anywhere': Boss Keys can appearanywhere in the world. A difficult mode sinceit is more likely to need to enter a dungeonmultiple times.\n\nTry different combinations out, such as:'Small Keys: Dungeon' + 'Boss Keys: Anywhere'for a milder Keysanity experience.\n\nRegardless of the selected option, boss keys frompre-completed dungeons won't be placed outside theirrespective dungeons and boss keys from other dungeonswon't be placed inside pre-completed dungeons.        "
+    "description": "'Remove': Boss Keys are removed. All locked doors in dungeons will be unlocked. An easier mode.\n\n'Vanilla': Boss Keys will appear in their vanilla locations.\n\n'Own Dungeon': Boss Keys can only appear in their respective dungeon.\n\n'Regional': Boss Keys can only appear in regions near the original dungeon (including the dungeon itself or other dungeons in the region).<a href=\"https://wiki.ootrandomizer.com/index.php?title=Hints#Hint_Regions\" target=\"_blank\">The Wiki has a list of corresponding regions here.</a>\n\n'Overworld Only': Boss Keys can only appear outside of dungeons. You may need to enter a dungeon without the boss key to get items required to find the key in the overworld.\n\n'Any Dungeon': Boss Keys can only appear inside of any dungeon, but won't necessarily be in the dungeon that the key is for. A difficult mode since it is more likely to need to enter a dungeon multiple times.\n\n'Anywhere': Boss Keys can appear anywhere in the world. A difficult mode since it is more likely to need to enter a dungeon multiple times.\n\nTry different combinations out, such as:'Small Keys: Dungeon' + 'Boss Keys: Anywhere'for a milder Keysanity experience.\n\nRegardless of the selected option, boss keys from pre-completed dungeons won't be placed outside their respective dungeons and boss keys from other dungeons won't be placed inside pre-completed dungeons.        "
   },
   "shuffle_smallkeys": {
     "name": "Small Keys",
-    "description": "'Remove': Small Keys are removed. All locked doors in dungeonswill be unlocked. An easier mode.\n\n'Vanilla': Small Keys will appear in their vanilla locations. You startwith 3 keys in Spirit Temple MQ because the vanilla key layout isnot beatable in logic. You start with 2 keys in Vanilla/MQ ShadowTemple with its dungeon shortcut enabled to prevent softlocks.\n\n'Own Dungeon': Small Keys can only appear in their respectivedungeon. If Fire Temple is not a Master Quest dungeon, the door tothe Boss Key chest will be unlocked.\n\n'Regional': Small Keys can only appearin regions near the original dungeon (includingthe dungeon itself or other dungeons in the region).<a href=\"https://wiki.ootrandomizer.com/index.php?title=Hints#Hint_Regions\" target=\"_blank\">The Wiki has a list of corresponding regions here.</a>\n\n'Overworld Only': Small Keys can only appear outsideof dungeons. You may need to enter a dungeon multipletimes to gain items to access the overworld locationswith the keys required to finish a dungeon.\n\n'Any Dungeon': Small Keys can only appear inside of any dungeon, butwon't necessarily be in the dungeon that the key is for. A difficult modesince it is more likely to need to enter a dungeon multiple times.\n\n'Anywhere': Small Keys can appear anywhere in the world. A difficultmode since it is more likely to need to enter a dungeon multiple times.\n\nTry different combination out, such as:'Small Keys: Dungeon' + 'Boss Keys: Anywhere'for a milder Keysanity experience.\n\nRegardless of the selected option, small keys from pre-completed dungeonswon't be placed outside their respective dungeons and small keys fromother dungeons won't be placed inside pre-completed dungeons.        "
+    "description": "'Remove': Small Keys are removed. All locked doors in dungeons will be unlocked. An easier mode.\n\n'Vanilla': Small Keys will appear in their vanilla locations. You startwith 3 keys in Spirit Temple MQ because the vanilla key layout is not beatable in logic. You start with 2 keys in Vanilla/MQ Shadow Temple with its dungeon shortcut enabled to prevent softlocks.\n\n'Own Dungeon': Small Keys can only appear in their respective dungeon. If Fire Temple is not a Master Quest dungeon, the door to the Boss Key chest will be unlocked.\n\n'Regional': Small Keys can only appear in regions near the original dungeon (including the dungeon itself or other dungeons in the region).<a href=\"https://wiki.ootrandomizer.com/index.php?title=Hints#Hint_Regions\" target=\"_blank\">The Wiki has a list of corresponding regions here.</a>\n\n'Overworld Only': Small Keys can only appear outside of dungeons. You may need to enter a dungeon multiple times to gain items to access the overworld locations with the keys required to finish a dungeon.\n\n'Any Dungeon': Small Keys can only appear inside of any dungeon, but won't necessarily be in the dungeon that the key is for. A difficult mode since it is more likely to need to enter a dungeon multiple times.\n\n'Anywhere': Small Keys can appear anywhere in the world. A difficult mode since it is more likely to need to enter a dungeon multiple times.\n\nTry different combination out, such as:'Small Keys: Dungeon' + 'Boss Keys: Anywhere'for a milder Keysanity experience.\n\nRegardless of the selected option, small keys from pre-completed dungeons won't be placed outside their respective dungeons and small keys from other dungeons won't be placed inside pre-completed dungeons.        "
   },
   "shuffle_hideoutkeys": {
     "name": "Thieves' Hideout Keys",
-    "description": "\"Vanilla\": Thieves' Hideout Keys will appear in theirvanilla location, dropping from fighting Gerudo guardsthat attack when trying to free the jailed carpenters.\n\n\"Gerudo Fortress Region\": Thieves' Hideout Keys can onlyappear in Gerudo Fortress or Thieves' Hideout.\n\n\"Regional\": Thieves' Hideout Keys can only appear inGerudo Valley, Gerudo Fortress, Thieves' Hideout, GerudoTraining Ground, Haunted Wasteland, Desert Colossus, orSpirit Temple.\n\n\"Overworld Only\": Thieves' Hideout Keys can only appearoutside of dungeons.\n\n\"Any Dungeon\": Thieves' Hideout Keys can only appearinside of dungeons.\n\n\"Anywhere\": Thieves' Hideout Keys can appear anywherein the world.        "
+    "description": "\"Vanilla\": Thieves' Hideout Keys will appear in their vanilla location, dropping from fighting Gerudo guards that attack when trying to free the jailed carpenters.\n\n\"Gerudo Fortress Region\": Thieves' Hideout Keys can only appear in Gerudo Fortress or Thieves' Hideout.\n\n\"Regional\": Thieves' Hideout Keys can only appear in Gerudo Valley, Gerudo Fortress, Thieves' Hideout, Gerudo Training Ground, Haunted Wasteland, Desert Colossus, or Spirit Temple.\n\n\"Overworld Only\": Thieves' Hideout Keys can only appear outside of dungeons.\n\n\"Any Dungeon\": Thieves' Hideout Keys can only appear inside of dungeons.\n\n\"Anywhere\": Thieves' Hideout Keys can appear anywhere in the world.        "
   },
   "shuffle_tcgkeys": {
     "name": "Treasure Chest Game Keys",
-    "description": "'Remove': All Treasure Chest Game keys will be removedand all doors will remained unlocked.\n\n'Vanilla': Treasure Chest Game keys will have vanillabehavior (one random per room). The minigame willalso have vanilla behavior.\n\n'Regional': Treasure Chest Game keys can only appearin Hyrule Field, Lon Lon Ranch, the Market, the Templeof Time, Hyrule Castle, outside Ganon's Castle, orinside Ganon's Castle.\n\n'Overworld Only': Treasure Chest Game keys can only appearoutside of dungeons.\n\n'Any Dungeon': Treasure Chest Game keys can only appearinside of dungeons.\n\n'Anywhere': Treasure Chest Game keys can appear anywherein the world.        "
+    "description": "'Remove': All Treasure Chest Game keys will be removed and all doors will remained unlocked.\n\n'Vanilla': Treasure Chest Game keys will have vanilla behavior (one random per room). The minigame will also have vanilla behavior.\n\n'Regional': Treasure Chest Game keys can only appear in Hyrule Field, Lon Lon Ranch, the Market, the Temple of Time, Hyrule Castle, Outside Ganon's Castle, or inside Ganon's Castle.\n\n'Overworld Only': Treasure Chest Game keys can only appear outside of dungeons.\n\n'Any Dungeon': Treasure Chest Game keys can only appear inside of dungeons.\n\n'Anywhere': Treasure Chest Game keys can appear anywhere in the world.        "
   },
   "key_rings_choice": {
     "name": "Key Rings Mode",
-    "description": "Selected dungeons will have all of their keys foundat once in a ring rather than individually.\n\nFor example, instead of shuffling 5 Forest Templesmall keys into the pool, you will find a singlekey ring which will give you all 5 keys at once.\n\nSelecting key ring for dungeons will have no effectif Small Keys are set to Remove or Vanilla.\n\nSelecting key ring for Thieves' Hideout will haveno effect if Thieves' Hideout keys are in vanillalocations or Gerudo's Fortress is set to RescueOne Carpenter.\n\nSimilarly, selecting Treasure Chest Game will haveno effect if the keys aren't shuffled. Treasure ChestGame will be considered when selecting 'All dungeons'or 'Random selection'.        "
+    "description": "Selected dungeons will have all of their keys found at once in a ring rather than individually.\n\nFor example, instead of shuffling 5 Forest Temple small keys into the pool, you will find a single key ring which will give you all 5 keys at once.\n\nSelecting key ring for dungeons will have no effectif Small Keys are set to Remove or Vanilla.\n\nSelecting key ring for Thieves' Hideout will have no effect if Thieves' Hideout keys are in vanilla locations or Gerudo's Fortress is set to Rescue One Carpenter.\n\nSimilarly, selecting Treasure Chest Game will have no effect if the keys aren't shuffled. Treasure ChestGame will be considered when selecting 'All dungeons'or 'Random selection'.        "
   },
   "key_rings": {
     "name": "Key Rings",
@@ -305,47 +305,47 @@
   },
   "shuffle_silver_rupees": {
     "name": "Shuffle Silver Rupees",
-    "description": "Enabling this shuffles the Silver Rupee puzzles into to theitem pool.\n\nSilver Rupees are grouped into sets of 5 (except for someMaster Quest dungeons, which have sets of other amounts), eachof which permanently unlocks something in a dungeon once allthe rupees in that set are collected. Hints will only tell youthe dungeon a Silver Rupee corresponds to, but upon collectingit, you will be told the exact room.The vanilla locations of Silver Rupees hold shuffled items.\n\n'Remove': Silver Rupees are removed and the puzzles aresolved. This will add a small amount of money andrefill items to the pool.\n\n'Vanilla': Silver Rupees will appear in their vanillalocations. You will have to collect all of a set in one go toto solve a puzzle.\n\n'Own Dungeon': Silver Rupees can only appearin their respective dungeon.\n\n'Regional': Silver Rupees can only appear in regionsnear the original dungeon (including the dungeonitself or other dungeons in the region).<a href=\"https://wiki.ootrandomizer.com/index.php?title=Hints#Hint_Regions\" target=\"_blank\">The Wiki has a list of corresponding regions here.</a>\n\n'Overworld Only': Silver Rupees can only appearoutside of dungeons.\n\n'Any Dungeon': Silver Rupees can only appear in adungeon, but not necessarily the dungeon they are for.\n\n'Anywhere': Silver Rupees can appearanywhere in the world.        "
+    "description": "Enabling this shuffles the Silver Rupee puzzles into to the item pool.\n\nSilver Rupees are grouped into sets of 5 (except for some Master Quest dungeons, which have sets of other amounts), each of which permanently unlocks something in a dungeon once all the rupees in that set are collected. Hints will only tell you the dungeon a Silver Rupee corresponds to, but upon collecting it, you will be told the exact room.The vanilla locations of Silver Rupees hold shuffled items.\n\n'Remove': Silver Rupees are removed and the puzzles are solved. This will add a small amount of money and refill items to the pool.\n\n'Vanilla': Silver Rupees will appear in their vanilla locations. You will have to collect all of a set in one go to to solve a puzzle.\n\n'Own Dungeon': Silver Rupees can only appear in their respective dungeon.\n\n'Regional': Silver Rupees can only appear in regions near the original dungeon (including the dungeon itself or other dungeons in the region).<a href=\"https://wiki.ootrandomizer.com/index.php?title=Hints#Hint_Regions\" target=\"_blank\">The Wiki has a list of corresponding regions here.</a>\n\n'Overworld Only': Silver Rupees can only appear outside of dungeons.\n\n'Any Dungeon': Silver Rupees can only appear in a dungeon, but not necessarily the dungeon they are for.\n\n'Anywhere': Silver Rupees can appear anywhere in the world.        "
   },
   "silver_rupee_pouches_choice": {
     "name": "Silver Rupee Pouches Mode",
-    "description": "Selected silver rupee puzzles will have all oftheir silver rupees found at once in a pouchrather than individually.\n\nFor example, instead of shuffling 5 silverrupees for the Fire Trial in Ganon's Castleinto the pool, you will find a single pouchwhich will give you all 5 of them at once.        "
+    "description": "Selected silver rupee puzzles will have all of their silver rupees found at once in a pouch rather than individually.\n\nFor example, instead of shuffling 5 silver rupees for the Fire Trial in Ganon's Castle into the pool, you will find a single pouch which will give you all 5 of them at once.        "
   },
   "silver_rupee_pouches": {
     "name": "Silver Rupee Pouches",
-    "description": "Select puzzles with silver rupee pouchesinstead of individual silver rupees.        "
+    "description": "Select puzzles with silver rupee pouches instead of individual silver rupees.        "
   },
   "shuffle_mapcompass": {
     "name": "Maps & Compasses",
-    "description": "'Remove': Maps and Compasses are removed.This will add a small amount of money and refill items to the pool.\n\n'Start With': Maps and Compasses are given to you from the start.This will add a small amount of money and refill items to the pool.\n\n'Vanilla': Maps and Compasses will appear in their vanilla locations.\n\n'Own Dungeon': Maps and Compasses can only appear in their respectivedungeon.\n\n'Regional': Maps and Compasses can only appear in regions near theoriginal dungeon (including the dungeon itself or other dungeons inthe region). <a href=\"https://wiki.ootrandomizer.com/index.php?title=Hints#Hint_Regions\" target=\"_blank\">The Wiki has a list of corresponding regions here.</a>\n\n'Overworld Only': Maps and Compasses can only appearoutside of dungeons.\n\n'Any Dungeon': Maps and Compasses can only appear in a dungeon, butnot necessarily the dungeon they are for.\n\n'Anywhere': Maps and Compasses can appear anywhere in the world.\n\nSetting 'Remove', 'Start With', 'Overworld', or 'Anywhere' will add 2more possible locations to each Dungeons. This makes dungeons moreprofitable, especially Ice Cavern, Water Temple, and Jabu Jabu's Belly.\n\nRegardless of the selected option, maps and compasses from pre-completeddungeons won't be placed outside their respective dungeons and maps andcompasses from other dungeons won't be placed inside pre-completed dungeons.        "
+    "description": "'Remove': Maps and Compasses are removed. This will add a small amount of money and refill items to the pool.\n\n'Start With': Maps and Compasses are given to you from the start.This will add a small amount of money and refill items to the pool.\n\n'Vanilla': Maps and Compasses will appear in their vanilla locations.\n\n'Own Dungeon': Maps and Compasses can only appear in their respective dungeon.\n\n'Regional': Maps and Compasses can only appear in regions near the original dungeon (including the dungeon itself or other dungeons inthe region). <a href=\"https://wiki.ootrandomizer.com/index.php?title=Hints#Hint_Regions\" target=\"_blank\">The Wiki has a list of corresponding regions here.</a>\n\n'Overworld Only': Maps and Compasses can only appear outside of dungeons.\n\n'Any Dungeon': Maps and Compasses can only appear in a dungeon, but not necessarily the dungeon they are for.\n\n'Anywhere': Maps and Compasses can appear anywhere in the world.\n\nSetting 'Remove', 'Start With', 'Overworld', or 'Anywhere' will add 2 more possible locations to each Dungeons. This makes dungeons more profitable, especially Ice Cavern, Water Temple and Jabu Jabu's Belly.\n\nRegardless of the selected option, maps and compasses from pre-completed dungeons won't be placed outside their respective dungeons and maps and compasses from other dungeons won't be placed inside pre-completed dungeons.        "
   },
   "enhance_map_compass": {
     "name": "Maps and Compasses Give Information",
-    "description": "Gives the Map and Compass extra functionality.Map will tell if a dungeon is vanilla or Master Quest.Compass will tell what medallion or stone is within.The Temple of Time Altar will no longer provideinformation on the location of medallions and stones.\n\n'Maps/Compasses: Remove': The dungeon information isnot available anywhere in the game.\n\n'Maps/Compasses: Start With': The dungeon informationis available immediately from the dungeon menu.        "
+    "description": "Gives the Map and Compass extra functionality. Map will tell if a dungeon is vanilla or Master Quest. Compass will tell what medallion or stone is within. The Temple of Time Altar will no longer provide information on the location of medallions and stones.\n\n'Maps/Compasses: Remove': The dungeon information is not available anywhere in the game.\n\n'Maps/Compasses: Start With': The dungeon information is available immediately from the dungeon menu.        "
   },
   "open_forest": {
     "name": "Forest",
-    "description": "'Open Forest': Mido no longer blocks the path to theDeku Tree, and the Kokiri boy no longer blocks the pathout of the forest.\n\n'Closed Deku': The Kokiri boy no longer blocks the pathout of the forest, but Mido still blocks the path to theDeku Tree, requiring Kokiri Sword and Deku Shield to accessthe Deku Tree.\n\n'Closed Forest': Beating Deku Tree is logically requiredto leave the forest area (Kokiri Forest/Lost Woods/Sacred ForestMeadow/Deku Tree), while the Kokiri Sword and a Deku Shield arerequired to access the Deku Tree. Items needed for this will beguaranteed inside the forest area. This setting is incompatiblewith starting as adult, and so Starting Age will be locked to Child.With either \"Shuffle Interior Entrances\" set to \"All\", \"ShuffleOverworld Entrances\" on, \"Randomize Warp Song Destinations\" onor \"Randomize Overworld Spawns\" on, Closed Forest will insteadbe treated as Closed Deku with starting age Child and WILL NOTguarantee that these items are available in the forest area.        "
+    "description": "'Open Forest': Mido no longer blocks the path to the Deku Tree, and the Kokiri boy no longer blocks the path out of the forest.\n\n'Closed Deku': The Kokiri boy no longer blocks the path out of the forest, but Mido still blocks the path to the Deku Tree, requiring Kokiri Sword and Deku Shield to access the Deku Tree.\n\n'Closed Forest': Beating Deku Tree is logically required to leave the forest area (Kokiri Forest/Lost Woods/Sacred Forest Meadow/Deku Tree), while the Kokiri Sword and a Deku Shield are required to access the Deku Tree. Items needed for this will be guaranteed inside the forest area. This setting is incompatible with starting as adult, and so Starting Age will be locked to Child. With either \"Shuffle Interior Entrances\" set to \"All\", \"Shuffle Overworld Entrances\" on, \"Randomize Warp Song Destinations\" on or \"Randomize Overworld Spawns\" on, Closed Forest will instead be treated as Closed Deku with starting age Child and WILL NOT guarantee that these items are available in the forest area.        "
   },
   "open_kakariko": {
     "name": "Kakariko Gate",
-    "description": "This changes the behavior of the Kakariko Gate toDeath Mountain Trail as child. The gate is alwaysopen as adult.\n\n\"Open Gate\": The gate is always open instead ofneeding Zelda's Letter. The Happy Mask Shop opensupon obtaining Zelda's Letter without needing toshow it to the guard.\n\n\"Zelda's Letter Opens Gate\": The gate is closed atthe start, but opens automatically along with theHappy Mask Shop upon obtaining Zelda's Letter.\n\n\"Closed\": The gate and the Happy Mask Shop both remain closeduntil showing Zelda's Letter to the guard in Kakariko.        "
+    "description": "This changes the behavior of the Kakariko Gate to Death Mountain Trail as child. The gate is always open as adult.\n\n\"Open Gate\": The gate is always open instead of needing Zelda's Letter. The Happy Mask Shop opens upon obtaining Zelda's Letter without needing to show it to the guard.\n\n\"Zelda's Letter Opens Gate\": The gate is closed at the start, but opens automatically along with the Happy Mask Shop upon obtaining Zelda's Letter.\n\n\"Closed\": The gate and the Happy Mask Shop both remain closed until showing Zelda's Letter to the guard in Kakariko.        "
   },
   "open_door_of_time": {
     "name": "Open Door of Time",
-    "description": "The Door of Time starts opened instead of needing toplay the Song of Time. If this is not set, onlyan Ocarina and Song of Time must be found to openthe Door of Time.        "
+    "description": "The Door of Time starts opened instead of needing to play the Song of Time. If this is not set, only an Ocarina and Song of Time must be found to open the Door of Time.        "
   },
   "zora_fountain": {
     "name": "Zora's Fountain",
-    "description": "'Default Behavior': King Zora obstructs the way toZora's Fountain. Ruto's Letter must be shown aschild in order to move him for both eras.\n\n'Open For Adult': King Zora is always moved inthe adult era. This means Ruto's Letter is onlyrequired to access Zora's Fountain as child.\n\n'Always Open': King Zora starts as moved inboth the child and adult eras. This also removesRuto's Letter from the pool since it can't be used.        "
+    "description": "'Default Behavior': King Zora obstructs the way to Zora's Fountain. Ruto's Letter must be shown as child in order to move him for both eras.\n\n'Open For Adult': King Zora is always moved inthe adult era. This means Ruto's Letter is only required to access Zora's Fountain as child.\n\n'Always Open': King Zora starts as moved in both the child and adult eras. This also removes Ruto's Letter from the pool since it can't be used.        "
   },
   "gerudo_fortress": {
     "name": "Gerudo's Fortress",
-    "description": "'Rescue One Carpenter': Only the bottom left carpenter,in the cell with a single torch, must be rescued.This cell can be savewarped to from any room in the hideout.All but one of the Thieves' Hideout Keys are removed.\n\n'Open Gerudo's Fortress': The carpenters are rescued fromthe start of the game, and if 'Shuffle Gerudo Card' is disabled,the player starts with the Gerudo Card in the inventoryallowing access to Gerudo Training Ground.        "
+    "description": "'Rescue One Carpenter': Only the bottom left carpenter, in the cell with a single torch, must be rescued. This cell can be save warped to from any room in the hideout. All but one of the Thieves' Hideout Keys are removed.\n\n'Open Gerudo's Fortress': The carpenters are rescued from the start of the game, and if 'Shuffle Gerudo Card' is disabled, the player starts with the Gerudo Card in the inventory allowing access to Gerudo Training Ground.        "
   },
   "dungeon_shortcuts_choice": {
     "name": "Dungeon Boss Shortcuts Mode",
-    "description": "Shortcuts to dungeon bosses are availablewithout any requirements.Incompatible with glitched logic.\n\nChanges include (vanilla shown, MQ similar):<b>Deku Tree</b>: webs burned, block in thebasement moved, 231 scrubs defeated<b>Dodongo's Cavern</b>: mud wall bombed,mouth opened and boss lobby floor bombed<b>Jabu Jabu</b>: pathway lowered<b>Forest Temple</b>: elevator raised andbasement gates open<b>Fire Temple</b>: pillar knocked down<b>Water Temple</b>: no change, but see thenote on \"Shuffle Boss Entrances\" below<b>Shadow Temple</b>: Truthspinner solved, boatblock moved, and statue bridge moved. You startwith 2 small keys if Shuffle Small Keys is setto Vanilla.<b>Spirit Temple</b>: lobby elevator activated,shortcut silver blocks moved, central roomplatform lowered, and statue face melted\n\nWith \"Shuffle Boss Entrances\", the floor aboveKing Dodongo's arena is opened based on theshortcut setting for the dungeon that containsthe entrance to King Dodongo's boss room, notnecessarily Dodongo's Cavern.\n\nChoose: Select dungeons with shortcutsAll: Enable all dungeons shortcutsRandom: Random dungeon shortcuts        "
+    "description": "Shortcuts to dungeon bosses are available without any requirements. Incompatible with glitched logic.\n\nChanges include (vanilla shown, MQ similar):<b>Deku Tree</b>: webs burned, block in the basement moved, 231 scrubs defeated <b>Dodongo's Cavern</b>: mud wall bombed, mouth opened and boss lobby floor bombed <b>Jabu Jabu</b>: pathway lowered <b>Forest Temple</b>: elevator raised and basement gates open <b>Fire Temple</b>: pillar knocked down<b>Water Temple</b>: no change, but see the note on \"Shuffle Boss Entrances\" below <b>Shadow Temple</b>: Truth spinner solved, boat block moved, and statue bridge moved. You start with 2 small keys if Shuffle Small Keys is set to Vanilla. <b>Spirit Temple</b>: lobby elevator activated, shortcut silver blocks moved, central room platform lowered, and statue face melted\n\nWith \"Shuffle Boss Entrances\", the floor above King Dodongo's arena is opened based on the shortcut setting for the dungeon that contains the entrance to King Dodongo's boss room, not necessarily Dodongo's Cavern.\n\nChoose: Select dungeons with shortcuts All: Enable all dungeons shortcuts Random: Random dungeon shortcuts        "
   },
   "dungeon_shortcuts": {
     "name": "Dungeon Boss Shortcuts",
@@ -353,7 +353,7 @@
   },
   "starting_age": {
     "name": "Starting Age",
-    "description": "Choose which age Link will start as.\n\nStarting as adult means you start withthe master sword in your inventory.\n\nOnly the child option is compatible withClosed Forest.        "
+    "description": "Choose which age Link will start as.\n\nStarting as adult means you start with the master sword in your inventory.\n\nOnly the child option is compatible with Closed Forest.        "
   },
   "mq_dungeons_mode": {
     "name": "MQ Dungeon Mode",
@@ -361,71 +361,71 @@
   },
   "mq_dungeons_specific": {
     "name": "MQ Dungeons",
-    "description": "Select the specific dungeons you wouldlike the Master Quest version of.The unselected dungeons will bethe original version.        "
+    "description": "Select the specific dungeons you would like the Master Quest version of. The unselected dungeons will be the original version.        "
   },
   "mq_dungeons_count": {
     "name": "MQ Dungeon Count",
-    "description": "Specify the number of Master Questdungeons to appear in the game.        "
+    "description": "Specify the number of Master Quest dungeons to appear in the game.        "
   },
   "shuffle_enemy_drops": {
     "name": "Shuffle Enemy Drops",
-    "description": "Enabling will allow every unique non-boss enemy that normally drops a random item to drop a shuffled item.The item will be automatically awarded when killing the enemy.\n\nThere are a handful of exceptions:    Poes    Big Octo    Stahlchild    Leevers    And maybe some others :)\n\nSome important tidbits:\n\nIn the vanilla game, Adult Kokiri Forest no longer has enemies after completing Forest Temple.Enabling this setting will force the enemies to always spawn.\n\nIndividual Guays respawn themselves 10 times after you kill them and then spawn a large Guay.Only the first guay will drop an item. Child Night Lon-Lon has 15 unique Guays. Good luck :)\n\nEnemies that spawn additional enemies when you kill them will drop items but with some caveats:    Bari (the large jellyfish things in Jabu) will only drop an item from the large jelly.        The 3 smaller ones won't    Floormasters - After killing the floormaster, it will split in 3.        One of the children will drop an item.\n\nDeku Babas are the ultimate enemy so they will only droptheir shuffled item if you hit them with Elemental Arrows.        The Deku Babas in Deku Tree and Bottom of the Well don't have additional drops.        "
+    "description": "Enabling will allow every unique non-boss enemy that normally drops a random item to drop a shuffled item. The item will be automatically awarded when killing the enemy.\n\nThere are a handful of exceptions: Poes, Big Octo, Stahlchild, Leevers. And maybe some others :)\n\nSome important tidbits:\n\nIn the vanilla game, Adult Kokiri Forest no longer has enemies after completing Forest Temple. Enabling this setting will force the enemies to always spawn.\n\nIndividual Guays respawn themselves 10 times after you kill them and then spawn a large Guay.Only the first guay will drop an item. Child Night Lon-Lon has 15 unique Guays. Good luck :)\n\nEnemies that spawn additional enemies when you kill them will drop items but with some caveats: Bari (the large jellyfish things in Jabu) will only drop an item from the large jelly. The 3 smaller ones won't. Floormasters - After killing the floormaster, it will split in 3. One of the children will drop an item.\n\nDeku Babas are the ultimate enemy so they will only drop their shuffled item if you hit them with Elemental Arrows. The Deku Babas in Deku Tree and Bottom of the Well don't have additional drops.        "
   },
   "empty_dungeons_mode": {
     "name": "Pre-completed Dungeons Mode",
-    "description": "Pre-completed dungeons are dungeons guaranteed to be barren and whosedungeon rewards are given for free to the player before the beginningof the game. This setting only applies to dungeons with dungeon rewards(blue warps).\n\n- 'None': No dungeon will be pre-completed. Some dungeons may still berandomly rolled with no major items, but their dungeon rewards won'tbe given for free.- 'Specific Dungeons': Choose which specific dungeons will be pre-completed.- 'Specific Rewards': Choose which specific dungeon rewards will be in pre-completed dungeons. Not compatible with shuffled dungeon rewards.- 'Count': Choose how many pre-completed dungeons will be randomly chosen.\n\nA same dungeon won't be both MQ and pre-completed unless it has beenexplicitly specified as such or unless it is the only way to fulfill both MQ andpre-completed selected settings.\n\nPre-completed dungeons won't contain major items even if \"Dungeons HaveOne Major Item\" is on.\n\nRegardless of \"Shuffle Dungeon Items\" settings, dungeon items frompre-completed dungeons won't be placed outside their respective dungeonsand dungeon items from other dungeons won't be placed inside pre-completeddungeons.\n\nIf \"Shuffle Songs\" is set to \"Dungeon rewards\", then songs that would havebeen placed in pre-completed dungeons are given for free along with thefree dungeon rewards.        "
+    "description": "Pre-completed dungeons are dungeons guaranteed to be barren and whose dungeon rewards are given for free to the player before the beginning of the game. This setting only applies to dungeons with dungeon rewards (blue warps).\n\n- 'None': No dungeon will be pre-completed. Some dungeons may still be randomly rolled with no major items, but their dungeon rewards won't be given for free.- 'Specific Dungeons': Choose which specific dungeons will be pre-completed.- 'Specific Rewards': Choose which specific dungeon rewards will be in pre-completed dungeons. Not compatible with shuffled dungeon rewards.- 'Count': Choose how many pre-completed dungeons will be randomly chosen.\n\nA same dungeon won't be both MQ and pre-completed unless it has been explicitly specified as such or unless it is the only way to fulfill both MQ and pre-completed selected settings.\n\nPre-completed dungeons won't contain major items even if \"Dungeons Have One Major Item\" is on.\n\nRegardless of \"Shuffle Dungeon Items\" settings, dungeon items from pre-completed dungeons won't be placed outside their respective dungeons and dungeon items from other dungeons won't be placed inside pre-completed dungeons.\n\nIf \"Shuffle Songs\" is set to \"Dungeon rewards\", then songs that would have been placed in pre-completed dungeons are given for free along with the free dungeon rewards.        "
   },
   "empty_dungeons_specific": {
     "name": "Pre-completed Dungeons",
-    "description": "Select the specific dungeons you wouldlike to be pre-completed.        "
+    "description": "Select the specific dungeons you would like to be pre-completed.        "
   },
   "empty_dungeons_rewards": {
     "name": "Pre-completed Dungeon Rewards",
-    "description": "Select the specific dungeons rewards whosedungeons you would like to be pre-completed.        "
+    "description": "Select the specific dungeons rewards whose dungeons you would like to be pre-completed.        "
   },
   "empty_dungeons_count": {
     "name": "Pre-completed Dungeon Count",
-    "description": "Specify the number of pre-completeddungeons to appear in the game.        "
+    "description": "Specify the number of pre-completed dungeons to appear in the game.        "
   },
   "shuffle_interior_entrances": {
     "name": "Shuffle Interior Entrances",
-    "description": "'Simple Interiors':Shuffle the pool of interior entrances which contains most Housesand all Great Fairies.\n\n'All Interiors':Extended version of 'Simple Interiors' with some extra places:Windmill, Link's House, Temple of Time and Kakariko Potion Shop.\n\nWhen shuffling any interior entrances, trade quest timers are disabledand items never revert, even when dying or loading a save.        "
+    "description": "'Simple Interiors':Shuffle the pool of interior entrances which contains most Houses and all Great Fairies.\n\n'All Interiors':Extended version of 'Simple Interiors' with some extra places: Windmill, Link's House, Temple of Time and Kakariko Potion Shop.\n\nWhen shuffling any interior entrances, trade quest timers are disabled and items never revert, even when dying or loading a save.        "
   },
   "shuffle_hideout_entrances": {
     "name": "Shuffle Thieves' Hideout Entrances",
-    "description": "Shuffle the pool of entrances to Thieves' Hideoutinto the pool of interior entrances.\n\nNote that savewarping in any room of Thieves' Hideoutalways takes you to the first room (with 1 torch).\n\nThere is an extra heart piece on the balcony above the jail inGerudo's Fortress if accessed as child. This is not shuffledand not considered in logic.        "
+    "description": "Shuffle the pool of entrances to Thieves' Hideout into the pool of interior entrances.\n\nNote that savewarping in any room of Thieves' Hideout always takes you to the first room (with 1 torch).\n\nThere is an extra heart piece on the balcony above the jail in Gerudo's Fortress if accessed as child. This is not shuffled and not considered in logic.        "
   },
   "shuffle_grotto_entrances": {
     "name": "Shuffle Grotto Entrances",
-    "description": "Shuffle the pool of grotto entrances, including all graves,small Fairy Fountains and the Lost Woods Stage.        "
+    "description": "Shuffle the pool of grotto entrances, including all graves, small Fairy Fountains and the Lost Woods Stage.        "
   },
   "shuffle_dungeon_entrances": {
     "name": "Shuffle Dungeon Entrances",
-    "description": "Shuffle the pool of dungeon entrances, including Bottomof the Well, Ice Cavern, and Gerudo Training Ground.\n\nAdditionally, the entrances of Deku Tree, Fire Temple andBottom of the Well are opened for both adult and child.\n\nWith Dungeon and Ganon selected, all dungeons including Ganon'scastle will be shuffled.\n\nThieves' Hideout is controlled by a separate setting.        "
+    "description": "Shuffle the pool of dungeon entrances, including Bottom of the Well, Ice Cavern, and Gerudo Training Ground.\n\nAdditionally, the entrances of Deku Tree, Fire Temple and Bottom of the Well are opened for both adult and child.\n\nWith Dungeon and Ganon selected, all dungeons including Ganon's Castle will be shuffled.\n\nThieves' Hideout is controlled by a separate setting.        "
   },
   "shuffle_bosses": {
     "name": "Shuffle Boss Entrances",
-    "description": "Shuffle the pool of dungeon boss entrances.This affects the boss rooms of all stone and medallion dungeons.\n\n'Age-Restricted':Shuffle the entrances of child and adult boss rooms separately.\n\n'Full':Shuffle the entrances of all boss rooms together.Child may be expected to defeat Phantom Ganon and/or Bongo Bongo.        "
+    "description": "Shuffle the pool of dungeon boss entrances.This affects the boss rooms of all stone and medallion dungeons.\n\n'Age-Restricted':Shuffle the entrances of child and adult boss rooms separately.\n\n'Full':Shuffle the entrances of all boss rooms together. Child may be expected to defeat Phantom Ganon and/or Bongo Bongo.        "
   },
   "shuffle_overworld_entrances": {
     "name": "Shuffle Overworld Entrances",
-    "description": "Shuffle the pool of Overworld entrances, which correspondsto almost all loading zones between Overworld areas.\n\nSome entrances are kept unshuffled to avoid issues:- Hyrule Castle Courtyard and Garden entrances- Both Market Back Alley entrances\n\nThe entrance from Gerudo Valley to Lake Hylia is a one-wayentrance and has its own setting below.\n\nJust like when shuffling interior entrances, shuffling overworldentrances disables trade timers and trade items never revert,even when dying or loading a save.        "
+    "description": "Shuffle the pool of Overworld entrances, which corresponds to almost all loading zones between Overworld areas.\n\nSome entrances are kept unshuffled to avoid issues:- Hyrule Castle Courtyard and Garden entrances- Both Market Back Alley entrances\n\nThe entrance from Gerudo Valley to Lake Hylia is a one-way entrance and has its own setting below.\n\nJust like when shuffling interior entrances, shuffling overworld entrances disables trade timers and trade items never revert, even when dying or loading a save.        "
   },
   "mix_entrance_pools": {
     "name": "Mix Entrance Pools",
-    "description": "Shuffle the selected entrances into a mixed poolinstead of separate ones. Has no effect on poolswhose entrances aren't shuffled.\n\nFor example, enabling the settings to shufflegrotto, dungeon, and overworld entrances andselecting grotto and dungeon entrances here willallow a dungeon to be inside a grotto or viceversa, while overworld entrances are shuffled intheir own separate pool and indoors stay vanilla.        "
+    "description": "Shuffle the selected entrances into a mixed pool instead of separate ones. Has no effect on pools whose entrances aren't shuffled.\n\nFor example, enabling the settings to shuffle grotto, dungeon and overworld entrances and selecting grotto and dungeon entrances here will allow a dungeon to be inside a grotto or vice versa, while overworld entrances are shuffled in their own separate pool and indoors stay vanilla."
   },
   "decouple_entrances": {
     "name": "Decouple Entrances",
-    "description": "Decouple entrances when shuffling them.This means you are no longer guaranteed to end up back where youcame from when you go back through an entrance.\n\nThis also adds the one-way entrance from Gerudo Valley to Lake Hyliain the pool of overworld entrances when they are shuffled.\n\nBoss entrances are currently excluded from this setting and remaincoupled regardless.        "
+    "description": "Decouple entrances when shuffling them.This means you are no longer guaranteed to end up back where you came from when you go back through an entrance.\n\nThis also adds the one-way entrance from Gerudo Valley to Lake Hylia in the pool of overworld entrances when they are shuffled.\n\nBoss entrances are currently excluded from this setting and remain coupled regardless.        "
   },
   "shuffle_gerudo_valley_river_exit": {
     "name": "Shuffle Gerudo Valley River Exit",
-    "description": "Randomize where the the one-way entrancedown the river in Gerudo Valley leads to.        "
+    "description": "Randomize where the the one-way entrance down the river in Gerudo Valley leads to.        "
   },
   "owl_drops": {
     "name": "Randomize Owl Drops",
-    "description": "Randomize where Kaepora Gaebora (the Owl) drops you atwhen you talk to him at Lake Hylia or at the top ofDeath Mountain Trail.        "
+    "description": "Randomize where Kaepora Gaebora (the Owl) drops you at when you talk to him at Lake Hylia or at the top of Death Mountain Trail.        "
   },
   "warp_songs": {
     "name": "Randomize Warp Song Destinations",
@@ -433,91 +433,91 @@
   },
   "spawn_positions": {
     "name": "Randomize Overworld Spawns",
-    "description": "Randomize where you start when loadinga save in the Overworld. This means you may not necessarilyspawn inside Link's House or Temple of Time.\n\n'Child': Child overworld spawn will be randomized.\n\n'Adult': Adult overworld spawn will be randomized.\n\nSelecting both options will randomize both spawns.\n\nThis stays consistent after saving and loading the game again.        "
+    "description": "Randomize where you start when loadinga save in the Overworld. This means you may not necessarily spawn inside Link's House or Temple of Time.\n\n'Child': Child overworld spawn will be randomized.\n\n'Adult': Adult overworld spawn will be randomized.\n\nSelecting both options will randomize both spawns.\n\nThis stays consistent after saving and loading the game again.        "
   },
   "free_bombchu_drops": {
     "name": "Add Bombchu Bag and Drops",
-    "description": "Bombchus are properly considered in logic andthe game is changed to account for this fact.\n\nThe first Bombchu pack will always be aBombchu Bag giving the same amount of Bombchusas would have been given by the item normally.For example, finding the Bombchus (5) itemfirst will give the Bombchu Bag with 5Bombchus inside.\n\nBombchu refills will drop from grass, pots,crates, and enemies after finding the bag.\n\nBombchus can be purchased for 60/99/180rupees once the bag has been found.\n\nThe Wasteland carpet merchant will not sellunshuffled Bombchus without finding a BombchuBag. If he is shuffled, he will sell his itemwithout a Bombchu Bag.\n\nBombchu Bowling opens with either Bomb Bag orBombchu Bag. The Bombchu and Bomb prizes (3rdand 4th respectively) will change to a PurpleRupee if the corresponding bag has not yet beenfound.        "
+    "description": "Bombchus are properly considered in logic and the game is changed to account for this fact.\n\nThe first Bombchu pack will always be a Bombchu Bag giving the same amount of Bombchus as would have been given by the item normally. For example, finding the Bombchus (5) item first will give the Bombchu Bag with 5 Bombchus inside.\n\nBombchu refills will drop from grass, pots,crates and enemies after finding the bag.\n\nBombchus can be purchased for 60/99/180 rupees once the bag has been found.\n\nThe Wasteland carpet merchant will not sell unshuffled Bombchus without finding a BombchuBag. If he is shuffled, he will sell his item without a Bombchu Bag.\n\nBombchu Bowling opens with either Bomb Bag or Bombchu Bag. The Bombchu and Bomb prizes (3rd and 4th respectively) will change to a Purple Rupee if the corresponding bag has not yet been found.        "
   },
   "one_item_per_dungeon": {
     "name": "Dungeons Have One Major Item",
-    "description": "Dungeons have exactly one major item.This naturally makes each dungeon similar in valuerather than vary based on shuffled locations.\n\nSpirit Temple Colossus hands count as partof the dungeon. Spirit Temple has TWO itemsto match vanilla distribution.\n\nBoss Keys and Fortress Keys only count asmajor items if they are shuffled Anywhere(Keysanity) or in Any Dungeon, and SmallKeys only count as major items if they areshuffled Anywhere (Keysanity). This settingis disabled if Small Keys are shuffled inAny Dungeon.\n\nGS Tokens only count as major items if thebridge or Ganon Boss Key requirements areset to \"GS Tokens\".\n\nHeart Containers and Pieces of Heart onlycount as major items if the bridge or GanonBoss Key requirements are set to \"Hearts\".\n\nBombchus only count as major items if theyare considered in logic.\n\nPre-completed dungeons (if any) won't havea major item.\n\nThis setting has potential to conflict withother randomizer settings. Should seeds continuouslyfail to generate, consider turning this option off.        "
+    "description": "Dungeons have exactly one major item. This naturally makes each dungeon similar in value rather than vary based on shuffled locations.\n\nSpirit Temple Colossus hands count as part of the dungeon. Spirit Temple has TWO items to match vanilla distribution.\n\nBoss Keys and Fortress Keys only count as major items if they are shuffled Anywhere (Keysanity) or in Any Dungeon, and Small Keys only count as major items if they are shuffled Anywhere (Keysanity). This settingis disabled if Small Keys are shuffled in Any Dungeon.\n\nGS Tokens only count as major items if the bridge or Ganon Boss Key requirements are set to \"GS Tokens\".\n\nHeart Containers and Pieces of Heart only count as major items if the bridge or Ganon Boss Key requirements are set to \"Hearts\".\n\nBombchus only count as major items if they are considered in logic.\n\nPre-completed dungeons (if any) won't have a major item.\n\nThis setting has potential to conflict with other randomizer settings. Should seeds continuously fail to generate, consider turning this option off.        "
   },
   "shuffle_boulders": {
     "name": "Shuffle Boulders",
-    "description": "Boulders (and red ice blocks) will berandomly shuffled around the world.        "
+    "description": "Boulders (and red ice blocks) will be randomly shuffled around the world.        "
   },
   "shuffle_song_items": {
     "name": "Shuffle Songs",
-    "description": "This restricts where song items can appear.\n\n'Song Locations': Song will only appear at locations thatnormally teach songs. In Multiworld, songs will onlyappear in their own world.\n\n'Dungeon Rewards': Songs appear at the end of dungeons.For major dungeons, they will be at the boss heartcontainer location. The remaining 4 songs are placed at:\n\n- Zelda's Lullaby Location- Ice Cavern's Serenade of Water Location- Bottom of the Well's Lens of Truth Location- Gerudo Training Ground's Ice Arrow Location\n\nIf some dungeons are pre-completed, songs that would havebeen located inside these dungeons are given for free alongwith the free dungeon rewards.\n\n'Anywhere': Songs can appear in any location.        "
+    "description": "This restricts where song items can appear.\n\n'Song Locations': Song will only appear at locations that normally teach songs. In Multiworld, songs will only appear in their own world.\n\n'Dungeon Rewards': Songs appear at the end of dungeons. For major dungeons, they will be at the boss heart container location. The remaining 4 songs are placed at:\n\n- Zelda's Lullaby Location- Ice Cavern's Serenade of Water Location- Bottom of the Well's Lens of Truth Location- Gerudo Training Ground's Ice Arrow Location\n\nIf some dungeons are pre-completed, songs that would have been located inside these dungeons are given for free along with the free dungeon rewards.\n\n'Anywhere': Songs can appear in any location.        "
   },
   "shopsanity": {
     "name": "Shopsanity",
-    "description": "Randomizes Shop contents.\n\n'X Items Per Shop': Each shop will have thespecified number of items randomized and theywill always appear on the left side(identified by the Special Deal! text).Remaining items will be shuffled between shops.\n\n'Random # of Items Per Shop': Each shop willhave 0 to 4 Special Deals.\n\nThe randomized items have no requirementsexcept money, while the remaining items retainnormal requirements. Tunics that aren't aSpecial Deal! will still require you to be anadult to purchase for example.\n\nBombchu Special Deals will unlock the Bombchuslot in your inventory and allow purchase ofBombchu Refills if \"Bombchus are considered inlogic\" is enabled. Otherwise, the Bomb Bag isrequired to purchase Bombchu Refills.        "
+    "description": "Randomizes Shop contents.\n\n'X Items Per Shop': Each shop will have the specified number of items randomized and they will always appear on the left side(identified by the Special Deal! text). Remaining items will be shuffled between shops.\n\n'Random # of Items Per Shop': Each shop will have 0 to 4 Special Deals.\n\nThe randomized items have no requirements except money, while the remaining items retain normal requirements. Tunics that aren't a Special Deal! will still require you to be an adult to purchase for example.\n\nBombchu Special Deals will unlock the Bombchus lot in your inventory and allow purchase of Bombchu Refills if \"Bombchus are considered inlogic\" is enabled. Otherwise, the Bomb Bag is required to purchase Bombchu Refills.        "
   },
   "shopsanity_prices": {
     "name": "Shopsanity Prices",
-    "description": "Controls the randomization of prices for shopsanity items.For more control, utilize the plandomizer.\n\n'Random': The default randomization. Shop prices forshopsanity items will range between 0 to 300 rupees,with a bias towards values slightly below the middle of therange, in multiples of 5.\n\n'X Wallet': Shop prices for shopsanity items will rangebetween 0 and the specified wallet's maximum capacity,in multiples of 5.\n\n'Affordable': Shop prices for shopsanity items will befixed to 10 rupees.        "
+    "description": "Controls the randomization of prices for shopsanity items. For more control, utilize the plandomizer.\n\n'Random': The default randomization. Shop prices for shopsanity items will range between 0 to 300 rupees, with a bias towards values slightly below the middle of the range, in multiples of 5.\n\n'X Wallet': Shop prices for shopsanity items will range between 0 and the specified wallet's maximum capacity, in multiples of 5.\n\n'Affordable': Shop prices for shopsanity items will be fixed to 10 rupees.        "
   },
   "tokensanity": {
     "name": "Tokensanity",
-    "description": "Token reward from Gold Skulltulas areshuffled into the pool.\n\n'Dungeons Only': This only shufflesthe GS locations that are withindungeons, increasing the value ofmost dungeons and making internaldungeon exploration more diverse.\n\n'Overworld Only': This only shufflesthe GS locations that are outsideof dungeons.\n\n'All Tokens': Effectively adds 100new locations for items to appear.        "
+    "description": "Token reward from Gold Skulltulas are shuffled into the pool.\n\n'Dungeons Only': This only shuffles the GS locations that are with indungeons, increasing the value of most dungeons and making internal dungeon exploration more diverse.\n\n'Overworld Only': This only shuffles the GS locations that are outside of dungeons.\n\n'All Tokens': Effectively adds 100 new locations for items to appear.        "
   },
   "shuffle_scrubs": {
     "name": "Scrub Shuffle",
-    "description": "'Off': Only the 3 Scrubs that give one-timeitems in the vanilla game (PoH, Deku Nutcapacity, and Deku Stick capacity) willhave random items.\n\n'Affordable': All Scrub prices will bereduced to 10 rupees each.\n\n'Expensive': All Scrub prices will betheir vanilla prices. This will requirespending over 1000 rupees on Scrubs.\n\n'Random Prices': All Scrub prices will bebetween 0-99 rupees. This will on averagebe very, very expensive overall.        "
+    "description": "'Off': Only the 3 Scrubs that give one-time items in the vanilla game (PoH, Deku Nut capacity, and Deku Stick capacity) will have random items.\n\n'Affordable': All Scrub prices will be reduced to 10 rupees each.\n\n'Expensive': All Scrub prices will be their vanilla prices. This will require spending over 1000 rupees on Scrubs.\n\n'Random Prices': All Scrub prices will be between 0-99 rupees. This will on average be very, very expensive overall.        "
   },
   "shuffle_child_trade": {
     "name": "Shuffle Child Trade Sequence Items",
-    "description": "Select the items to shuffle in the child trade sequence.\n\nTo skip Child Zelda, do not shuffle Zelda's Letter andadd it as a starting item.        "
+    "description": "Select the items to shuffle in the child trade sequence.\n\nTo skip Child Zelda, do not shuffle Zelda's Letter and add it as a starting item.        "
   },
   "shuffle_freestanding_items": {
     "name": "Shuffle Rupees & Hearts",
-    "description": "Shuffles freestanding rupees and recovery hearts, also shuffles:    Shadow Temple Spinning Pot Drop    All Goron Pot faces\n\nOff: No freestanding rupees/recovery hearts are shuffled.All: All Visible freestanding rupees/recovery hearts are shuffled.Overworld Only: Freestanding rupees/recovery hearts in the overworld are shuffled.Dungeons Only: Freestanding rupees/recovery hearts in dungeons are shuffled.        "
+    "description": "Shuffles freestanding rupees and recovery hearts, also shuffles: Shadow Temple Spinning Pot Drop, All Goron Pot faces\n\nOff: No freestanding rupees/recovery hearts are shuffled. All: All Visible freestanding rupees/recovery hearts are shuffled. Overworld Only: Freestanding rupees/recovery hearts in the overworld are shuffled. Dungeons Only: Freestanding rupees/recovery hearts in dungeons are shuffled.        "
   },
   "shuffle_pots": {
     "name": "Shuffle Pots",
-    "description": "Shuffles pots, flying pots into the location pool.\n\nOff: Not shuffled.All: All pots/flying pots are shuffled.Overworld Only: Only overworld pots/flying pots are shuffled.Dungeons Only: Only dungeon pots/flying pots are shuffled.\n\nWhen this setting is enabled, the pots in Ganon's Tower will beaccessible without Ganon's Boss Key. Proceeding up the tower outof the room with the pots will require Ganon's Boss Key.        "
+    "description": "Shuffles pots, flying pots into the location pool.\n\nOff: Not shuffled. All: All pots/flying pots are shuffled. Overworld Only: Only overworld pots/flying pots are shuffled. Dungeons Only: Only dungeon pots/flying pots are shuffled.\n\nWhen this setting is enabled, the pots in Ganon's Tower will be accessible without Ganon's Boss Key. Proceeding up the tower out of the room with the pots will require Ganon's Boss Key.        "
   },
   "shuffle_empty_pots": {
     "name": "Include Empty Pots",
-    "description": "Enabling this will include empty pots into the locationpool based on the Shuffle Pots setting chosen.        "
+    "description": "Enabling this will include empty pots into the location pool based on the Shuffle Pots setting chosen.        "
   },
   "shuffle_crates": {
     "name": "Shuffle Crates",
-    "description": "Shuffles large and small crates into the location pool.\n\nOff: Not shuffled.All: crates are shuffled.Overworld Only: Only overworld crates are shuffled.Dungeons Only: Only dungeon crates are shuffled.\n\nNote: Only crates which normally drop an item are shuffled. Empty crates are not included.        "
+    "description": "Shuffles large and small crates into the location pool.\n\nOff: Not shuffled. All: crates are shuffled. Overworld Only: Only overworld crates are shuffled. Dungeons Only: Only dungeon crates are shuffled.\n\nNote: Only crates which normally drop an item are shuffled. Empty crates are not included.        "
   },
   "shuffle_empty_crates": {
     "name": "Include Empty Crates",
-    "description": "Enabling this will include empty crates into the locationpool based on the Shuffle Crates setting chosen.        "
+    "description": "Enabling this will include empty crates into the location pool based on the Shuffle Crates setting chosen.        "
   },
   "shuffle_cows": {
     "name": "Shuffle Cows",
-    "description": "Enabling this will let cows give you itemsupon performing Epona's song in front of them.There are 9 cows, and an extra in MQ Jabu.        "
+    "description": "Enabling this will let cows give you items upon performing Epona's song in front of them. There are 9 cows, and an extra in MQ Jabu.        "
   },
   "shuffle_beehives": {
     "name": "Shuffle Beehives",
-    "description": "Enabling this will let beehives drop items.There are 32 Beehives located in:    Generic Grottos (x2 per grotto)    2 Scrub Grottos (x1 per grotto)    3 Scrub Grottos (x1 per grotto)    DMT Cow Grotto (x1)    Zora's Domain (x3 child only)        "
+    "description": "Enabling this will let beehives drop items. There are 32 Beehives located in: Generic Grottos (x2 per grotto), 2 Scrub Grottos (x1 per grotto), 3 Scrub Grottos (x1 per grotto), DMT Cow Grotto (x1) and Zora's Domain (x3 child only)        "
   },
   "shuffle_grass": {
     "name": "Shuffle Grass",
-    "description": "Grass will contain random items.\n\nIf you enable this, there's seriouslysome what's wrong with you :)        "
+    "description": "Grass will contain random items.\n\nIf you enable this, there's seriously something that's wrong with you :)        "
   },
   "shuffle_wonderitems": {
     "name": "Shuffle Wonderitems",
-    "description": "Enabling will shuffle drops from wonderitems.\n\nWonderitems are invisible items in the game that will drop anitem under a certain condition. These items will be marked in the game with asparkle effect when shuffled so they can be easily found. Thereare 4 kinds of shuffled wonderitems.\n\nProximity Drop (Yellow): Gives an item when Link touches it.\n\nInteract Switch (Red): Drops an item when hit with a certain damage type.     (Sword, bow, slingshot, or hookshot)\n\nFree Multitag (Blue): Gives an item when a certain set of tag points   are touched. The only free multitag is the stepping stones   in Kokiri Forest.\n\nOrdered Multitag (Cyan): Gives an item when a set of tag points are touched      in a specific order. The only ordered multitag is the      grass stepping stones in Kokiri Forest.        "
+    "description": "Enabling will shuffle drops from wonderitems.\n\nWonderitems are invisible items in the game that will drop an item under a certain condition. These items will be marked in the game with a sparkle effect when shuffled so they can be easily found. There are 4 kinds of shuffled wonderitems.\n\nProximity Drop (Yellow): Gives an item when Link touches it.\n\nInteract Switch (Red): Drops an item when hit with a certain damage type (Sword, bow, slingshot, or hookshot).\n\nFree Multitag (Blue): Gives an item when a certain set of tag points are touched. The only free multitag is the stepping stones in Kokiri Forest.\n\nOrdered Multitag (Cyan): Gives an item when a set of tag points are touched in a specific order. The only ordered multitag is the grass stepping stones in Kokiri Forest.        "
   },
   "shuffle_gossipstones": {
     "name": "Shuffle Gossip Stones",
-    "description": "Playing Song of Time to Gossip Stoneswill cause them to drop an item.        "
+    "description": "Playing Song of Time to Gossip Stone swill cause them to drop an item.        "
   },
   "shuffle_kokiri_sword": {
     "name": "Shuffle Kokiri Sword",
-    "description": "Enabling this shuffles the Kokiri Sword into the pool.\n\nThis will require extensive use of sticks until thesword is found.        "
+    "description": "Enabling this shuffles the Kokiri Sword into the pool.\n\nThis will require extensive use of sticks until the sword is found.        "
   },
   "shuffle_ocarinas": {
     "name": "Shuffle Ocarinas",
-    "description": "Enabling this shuffles the Fairy Ocarina and the Ocarinaof Time into the pool.\n\nThis will require finding an Ocarina before being ableto play songs.        "
+    "description": "Enabling this shuffles the Fairy Ocarina and the Ocarina of Time into the pool.\n\nThis will require finding an Ocarina before being able to play songs.        "
   },
   "shuffle_gerudo_card": {
     "name": "Shuffle Gerudo Card",
@@ -525,23 +525,23 @@
   },
   "shuffle_beans": {
     "name": "Shuffle Magic Beans",
-    "description": "Enabling this adds a pack of 10 beans to the item pooland changes the Magic Bean Salesman to sell a randomitem once at the price of 60 Rupees.        "
+    "description": "Enabling this adds a pack of 10 beans to the item pool and changes the Magic Bean Salesman to sell a random item once at the price of 60 Rupees.        "
   },
   "shuffle_expensive_merchants": {
     "name": "Shuffle Expensive Merchants",
-    "description": "Enabling this adds a Giant's Knife and a pack of Bombchusto the item pool and changes Medigoron, Granny's Potion Shop,and the Haunted Wasteland Carpet Salesman to sell a randomitem once at the same price as their vanilla items.        "
+    "description": "Enabling this adds a Giant's Knife and a pack of Bombchus to the item pool and changes Medigoron, Granny's Potion Shop and the Haunted Wasteland Carpet Salesman to sell a random item once at the same price as their vanilla items.        "
   },
   "shuffle_frog_song_rupees": {
     "name": "Shuffle Frog Song Rupees",
-    "description": "Enabling this adds 5 Purple Rupees to the item pooland shuffles the rewards from playing Zelda's Lullaby,Epona's Song, Saria's Song, Sun's Song, and Song of Timeto the frogs in Zora's River.        "
+    "description": "Enabling this adds 5 Purple Rupees to the item pool and shuffles the rewards from playing Zelda's Lullaby, Epona's Song, Saria's Song, Sun's Song and Song of Time to the frogs in Zora's River.        "
   },
   "shuffle_individual_ocarina_notes": {
     "name": "Shuffle Individual Ocarina Notes",
-    "description": "Enabling this locks all Ocarina inputs, and adds 5new items to find that each unlock one of the 5Ocarina notes.        "
+    "description": "Enabling this locks all Ocarina inputs, and adds 5 new items to find that each unlock one of the 5 Ocarina notes.        "
   },
   "shuffle_enemy_spawns": {
     "name": "Shuffle Enemy Souls",
-    "description": "Enabling this will prevent enemies fromspawning into the world until their \"Soul\"has been collected. Each enemy type willhave a soul added into the item pool        "
+    "description": "Enabling this will prevent enemies from spawning into the world until their \"Soul\"has been collected. Each enemy type will have a soul added into the item pool        "
   },
   "shuffle_fishies": {
     "name": "Shuffle Fishing Game Fish",
@@ -549,18 +549,18 @@
   },
   "shuffle_loach_reward": {
     "name": "Shuffle Hyrule Loach Reward",
-    "description": "Enabling this shuffles the reward for catching theHyrule Loach at the fishing pond into the item pool\n\nVanilla Behavior shuffles the reward for catching the loachbut otherwise keeps all behavior the same as inthe vanilla game. The loach will spawn every fourth playof the fishing minigame and the sinking lure willbecome available only after obtaining the fishing prizefor link's current age.\n\nEasier Behavior shuffles the loach reward but also modifiessome behavior in order to make the loach easier to catch.When enabled the loach will always spawn at thefishing pond, the sinking lure will be availableimmediately at all four possible positions, andthe child/adult fishing prizes are still obtainableif you use the sinking lure.        "
+    "description": "Enabling this shuffles the reward for catching the Hyrule Loach at the fishing pond into the item pool\n\nVanilla Behavior shuffles the reward for catching the loach but otherwise keeps all behavior the same as in the vanilla game. The loach will spawn every fourth play of the fishing minigame and the sinking lure will become available only after obtaining the fishing prize for link's current age.\n\nEasier Behavior shuffles the loach reward but also modifies some behavior in order to make the loach easier to catch. When enabled the loach will always spawn at the fishing pond, the sinking lure will be available immediately at all four possible positions and the child/adult fishing prizes are still obtainable if you use the sinking lure.        "
   },
   "logic_no_night_tokens_without_suns_song": {
     "name": "Nighttime Skulltulas Expect Sun's Song",
-    "description": "GS Tokens that can only be obtainedduring the night expect you to have Sun'sSong to collect them. This prevents needingto wait until night for some locations.        "
+    "description": "GS Tokens that can only be obtained during the night expect you to have Sun's Song to collect them. This prevents needing to wait until night for some locations.        "
   },
   "disabled_locations": {
     "name": "Exclude Locations",
-    "description": "Locations in the left column may contain itemsrequired to complete the game.\n\nLocations in the right column will never haveitems that are required to complete the game,and will only contain junk.\n\nMost dungeon locations have a MQ alternative.If the location does not exist because of MQthen it will be ignored. So make sure todisable both versions if that is the intent.        "
+    "description": "Locations in the left column may contain items required to complete the game.\n\nLocations in the right column will never have items that are required to complete the game and will only contain junk.\n\nMost dungeon locations have a MQ alternative. If the location does not exist because of MQ then it will be ignored. So make sure to disable both versions if that is the intent.        "
   },
   "allowed_tricks": {
-    "description": "Tricks moved to the right column are in-logicand MAY be required to complete the game.\n\nTricks in the left column are NEVER required.\n\nTricks are only relevant for Glitchless logic.        "
+    "description": "Tricks moved to the right column are in-logic and MAY be required to complete the game.\n\nTricks in the left column are NEVER required.\n\nTricks are only relevant for Glitchless logic.        "
   },
   "starting_equipment": {
     "description": "Begin the game with the selected equipment.        "
@@ -569,7 +569,7 @@
     "description": "Begin the game with the selected songs already learnt.        "
   },
   "starting_inventory": {
-    "description": "Begin the game with the selected inventory items.Selecting multiple progressive items will givethe appropriate number of upgrades.\n\nIf playing with Open Zora's Fountain, the Ruto's Letteris converted to a regular Bottle.        "
+    "description": "Begin the game with the selected inventory items. Selecting multiple progressive items will give the appropriate number of upgrades.\n\nIf playing with Open Zora's Fountain, the Ruto's Letter is converted to a regular Bottle.        "
   },
   "start_with_consumables": {
     "name": "Start with Consumables",
@@ -577,79 +577,79 @@
   },
   "start_with_rupees": {
     "name": "Start with Max Rupees",
-    "description": "Start the game with a full wallet.Wallet upgrades will also fill the wallet.        "
+    "description": "Start the game with a full wallet. Wallet upgrades will also fill the wallet.        "
   },
   "starting_hearts": {
     "name": "Starting Hearts",
-    "description": "Start the game with the selected number of hearts.Heart Containers and Pieces of Heart are removedfrom the item pool in equal proportion.        "
+    "description": "Start the game with the selected number of hearts. Heart Containers and Pieces of Heart are removed from the item pool in equal proportion.        "
   },
   "skip_reward_from_rauru": {
     "name": "Free Reward from Rauru",
-    "description": "The item given by Rauru beyond the Door of Time(the Light Medallion in the vanilla game) isgiven as a starting item instead.        "
+    "description": "The item given by Rauru beyond the Door of Time (the Light Medallion in the vanilla game) is given as a starting item instead.        "
   },
   "no_escape_sequence": {
     "name": "Skip Tower Escape Sequence",
-    "description": "The tower escape sequence betweenGanondorf and Ganon will be skipped.        "
+    "description": "The tower escape sequence between Ganondorf and Ganon will be skipped.        "
   },
   "no_guard_stealth": {
     "name": "Skip Child Stealth",
-    "description": "The crawlspace into Hyrule Castle goesstraight to Zelda, skipping the guards.        "
+    "description": "The crawlspace into Hyrule Castle goes straight to Zelda, skipping the guards.        "
   },
   "no_epona_race": {
     "name": "Skip Epona Race",
-    "description": "Epona can be summoned with Epona's Songwithout needing to race Ingo.        "
+    "description": "Epona can be summoned with Epona's Song without needing to race Ingo.        "
   },
   "skip_some_minigame_phases": {
     "name": "Skip Some Minigame Phases",
-    "description": "Awards all eligible prizes after the first attempt forDampe Race and Gerudo Horseback Archery.\n\nDampe will start with the second race so you can finishthe race in under a minute and get both rewards at once.You still get the first reward from the chest even if youdon't complete the race in under a minute.\n\nBoth rewards at the Gerudo Horseback Archery will beavailable from the first time you play the minigame.This means you can get both rewards at once if you get1500 points in a single attempt.        "
+    "description": "Awards all eligible prizes after the first attempt for Dampe Race and Gerudo Horseback Archery.\n\nDampe will start with the second race so you can finish the race in under a minute and get both rewards at once. You still get the first reward from the chest even if you don't complete the race in under a minute.\n\nBoth rewards at the Gerudo Horseback Archery will be available from the first time you play the minigame. This means you can get both rewards at once if you get 1500 points in a single attempt.        "
   },
   "complete_mask_quest": {
     "name": "Complete Mask Quest",
-    "description": "Once the Happy Mask Shop is opened,all masks will be available to be borrowed.        "
+    "description": "Once the Happy Mask Shop is opened, all masks will be available to be borrowed.        "
   },
   "useful_cutscenes": {
     "name": "Enable Specific Glitch-Useful Cutscenes",
-    "description": "The cutscenes of the Poes in Forest Temple and Darunia inFire Temple will not be skipped. These cutscenes are usefulin glitched gameplay only and do not provide any timesavefor glitchless playthroughs.        "
+    "description": "The cutscenes of the Poes in Forest Temple and Darunia in Fire Temple will not be skipped. These cutscenes are useful in glitched gameplay only and do not provide any timesave for glitchless playthroughs.        "
   },
   "fast_chests": {
     "name": "Fast Chest Cutscenes",
-    "description": "All chest animations are fast. If disabled,the animation time is slow for major items.        "
+    "description": "All chest animations are fast. If disabled, the animation time is slow for major items.        "
   },
   "free_scarecrow": {
     "name": "Free Scarecrow's Song",
-    "description": "Pulling out the Ocarina near aspot at which Pierre can spawn willdo so, without needing the song.        "
+    "description": "Pulling out the Ocarina near a spot at which Pierre can spawn will do so, without needing the song.        "
   },
   "fast_bunny_hood": {
     "name": "Fast Bunny Hood",
-    "description": "The Bunny Hood mask behaves like it doesin Majora's Mask and makes you go 1.5× faster.        "
+    "description": "The Bunny Hood mask behaves like it does in Majora's Mask and makes you go 1.5× faster.        "
   },
   "auto_equip_masks": {
     "name": "Maintain Mask Equips through Scene Changes",
-    "description": "Keep the currently equipped mask equipped after scenechanges. Also persists through savewarps. If equip swapis used to wear a mask as adult and the ability toequip swap masks is lost, travelling through time willunequip the mask as adult.        "
+    "description": "Keep the currently equipped mask equipped after scene changes. Also persists through savewarps. If equip swap is used to wear a mask as adult and the ability to equip swap masks is lost, travelling through time will unequip the mask as adult.        "
   },
   "plant_beans": {
     "name": "Plant Magic Beans",
-    "description": "Enabling this plants all 10 magic beans in soft soilcausing the bean plants to be available as adult. Youcan still get beans normally.        "
+    "description": "Enabling this plants all 10 magic beans in soft soil causing the bean plants to be available as adult. You can still get beans normally.        "
   },
   "chicken_count_random": {
     "name": "Random Cucco Count",
-    "description": "Anju will give a reward for collecting a randomnumber of Cuccos.        "
+    "description": "Anju will give a reward for collecting a random number of Cuccos.        "
   },
   "chicken_count": {
     "name": "Cucco Count",
-    "description": "Anju will give a reward for turningin the chosen number of Cuccos.        "
+    "description": "Anju will give a reward for turning in the chosen number of Cuccos.        "
   },
   "big_poe_count_random": {
     "name": "Random Big Poe Target Count",
-    "description": "The Poe buyer will give a reward for turningin a random number of Big Poes.        "
+    "description": "The Poe buyer will give a reward for turning in a random number of Big Poes.        "
   },
   "big_poe_count": {
     "name": "Big Poe Target Count",
-    "description": "The Poe buyer will give a reward for turningin the chosen number of Big Poes.        "
+    "description": "The Poe buyer will give a reward for turning in the chosen number of Big Poes.        "
   },
   "easier_fire_arrow_entry": {
     "name": "Easier Fire Arrow Entry",
-    "description": "It is possible to open the Shadow Temple entranceby lighting the torches with Fire Arrows, butcan be difficult to light all 24 torches in time.Enabling this setting allows you to reduce thenumber of torches that need to be lit to openthe entrance, making it easier to performFire Arrow Entry.\n\nNote that this setting does not affect logic.Whether it's used or not, the trick \"Shadow TempleEntry with Fire Arrows\" must be enabled for it to bein logic.        "
+    "description": "It is possible to open the Shadow Temple entrance by lighting the torches with Fire Arrows, but can be difficult to light all 24 torches in time. Enabling this setting allows you to reduce the number of torches that need to be lit to open the entrance, making it easier to perform Fire Arrow Entry.\n\nNote that this setting does not affect logic. Whether it's used or not, the trick \"Shadow TempleEntry with Fire Arrows\" must be enabled for it to be in logic.        "
   },
   "fae_torch_count": {
     "name": "Fire Arrow Entry Torch Count",
@@ -657,62 +657,62 @@
   },
   "ruto_already_f1_jabu": {
     "name": "Ruto Already at F1",
-    "description": "Ruto in Jabu Jabu's Belly will already be at the top floor.Only applied in the original version of the dungeon, sincein Master Quest you don't need to bring Ruto up.        "
+    "description": "Ruto in Jabu Jabu's Belly will already be at the top floor .Only applied in the original version of the dungeon, since in Master Quest you don't need to bring Ruto up.        "
   },
   "ocarina_songs": {
     "name": "Randomize Ocarina Melodies",
-    "description": "Will need to memorize a new set of songs.Can be silly, but difficult. All songs aregenerally sensible, but warp songs aretypically more difficult than frog songs."
+    "description": "Will need to memorize a new set of songs. Can be silly, but difficult. All songs are generally sensible, but warp songs are typically more difficult than frog songs."
   },
   "correct_chest_appearances": {
     "name": "Chest Appearance Matches Contents",
-    "description": "If \"Texture\" is enabled, chest texture will reflect its contentsregardless of size.  Fancy chests will contain keys,Gilded chests will contain major items, shuffledtokens will be in Webbed chests, and Wooden chestswill contain the rest.This allows skipping chests if they are wooden.However, skipping wooden chests will mean havinglow health, ammo, and rupees, so doing so is a risk.\n\n\"Size and Texture\" will change chests with majoritems and boss keys into big chests, and everythingelse into small chests.\n\n\"Classic\" is the behavior of CSMC in previous versions of the randomizer.This will change chests with major items and boss keys into big chests.Boss keys will remain in their fancy chest, while small key will be in asmaller version of the fancy chest.        "
+    "description": "If \"Texture\" is enabled, chest texture will reflect its contents regardless of size.  Fancy chests will contain keys, Gilded chests will contain major items, shuffled tokens will be in Webbed chests, and Wooden chests will contain the rest. This allows skipping chests if they are wooden. However, skipping wooden chests will mean having low health, ammo and rupees, so doing so is a risk.\n\n\"Size and Texture\" will change chests with major items and boss keys into big chests, and everything else into small chests.\n\n\"Classic\" is the behavior of CSMC in previous versions of the randomizer. This will change chests with major items and boss keys into big chests. Boss keys will remain in their fancy chest, while small key will be in a smaller version of the fancy chest.        "
   },
   "chest_textures_specific": {
     "name": "Chest Textures",
-    "description": "Select specific chest textures.Any unchecked option will make all items in the categoryappear in brown chests.        "
+    "description": "Select specific chest textures. Any unchecked option will make all items in the category appear in brown chests.        "
   },
   "soa_unlocks_chest_texture": {
     "name": "Stone of Agony Unlocks Chest Textures",
-    "description": "Textures for chests will only be correctwhen Stone of Agony is found.        "
+    "description": "Textures for chests will only be correct when Stone of Agony is found.        "
   },
   "minor_items_as_major_chest": {
     "name": "Minor Items in Big/Gold chests",
-    "description": "Chests with Hylian or Deku Shields, Deku Stickor Nut Capacity, or Bombchus will appear in Bigand/or Gold chests, depending on the ChestAppearance Matches Contents setting. Bombchusare always in big chests if Add Bombchu Bag andDrops is on.        "
+    "description": "Chests with Hylian or Deku Shields, Deku Stickor Nut Capacity or Bombchus will appear in Big and/or Gold chests, depending on the Chest Appearance Matches Contents setting. Bombchus are always in big chests if Add Bombchu Bag and Drops is on.        "
   },
   "invisible_chests": {
     "name": "Invisible Chests",
-    "description": "Chests will only be visible with theLens of Truth. Lens is not logicallyrequired for normally visible chests.        "
+    "description": "Chests will only be visible with the Lens of Truth. Lens is not logically required for normally visible chests.        "
   },
   "correct_potcrate_appearances": {
     "name": "Pot Crate Grass & Beehive Appearance Matches Contents",
-    "description": "If enabled, pot/crate textures, and beehive wiggling will reflect its contents.\n\nOff - Pots, crates, grass and beehives will appear as vanilla.\n\nTexture (Match Content) - Pot, crate, grass textures will reflect the contents.Golden Pots/crates will contain major items.Pots/crates with keys on them will contain small keys.Pots/crates containing boss keys will use a variation of the boss key chest texture.Pots/crates with a spider web on them contain Gold Skulltula tokens.All other items will use the original texture.The texture will revert to the original texture once the item is collected.Beehives containing non-junk items will wiggle until collected.\n\nTexture (Unchecked) - All pots/crates/grass containing shuffled itemswill appear with a golden texture. The texture will revert to theoriginal texture once the item is collected.Beehives will wiggle until their item is collected.        "
+    "description": "If enabled, pot/crate textures, and beehive wiggling will reflect its contents.\n\nOff - Pots, crates, grass and beehives will appear as vanilla.\n\nTexture (Match Content) - Pot, crate, grass textures will reflect the contents. Golden Pots/crates will contain major items. Pots/crates with keys on them will contain small keys. Pots/crates containing boss keys will use a variation of the boss key chest texture. Pots/crates with a spider web on them contain Gold Skulltula tokens. All other items will use the original texture. The texture will revert to the original texture once the item is collected. Beehives containing non-junk items will wiggle until collected.\n\nTexture (Unchecked) - All pots/crates/grass containing shuffled items will appear with a golden texture. The texture will revert to the original texture once the item is collected. Beehives will wiggle until their item is collected.        "
   },
   "potcrate_textures_specific": {
     "name": "Pot and Crate Textures",
-    "description": "Select specific pots and crates textures.Any unchecked option will make all items in the categoryappear in regular pots/crates.        "
+    "description": "Select specific pots and crates textures. Any unchecked option will make all items in the category appear in regular pots/crates.        "
   },
   "soa_unlocks_potcrate_texture": {
     "name": "Stone of Agony Unlocks Pot and Crate Textures",
-    "description": "Textures for pots and crates will only be correctwhen Stone of Agony is found.        "
+    "description": "Textures for pots and crates will only be correct when Stone of Agony is found.        "
   },
   "key_appearance_match_dungeon": {
     "name": "Key Appearance Matches Dungeon",
-    "description": "Small keys and boss keys (not key rings)will use custom models to match their dungeon.        "
+    "description": "Small keys and boss keys (not key rings) will use custom models to match their dungeon.        "
   },
   "clearer_hints": {
     "name": "Clearer Hints",
-    "description": "The hints provided by Gossip Stones willbe very direct if this option is enabled.        "
+    "description": "The hints provided by Gossip Stones will be very direct if this option is enabled.        "
   },
   "hints": {
     "name": "Gossip Stones",
-    "description": "Gossip Stones can be made to give hintsabout where items can be found.\n\nDifferent settings can be chosen todecide which item is needed tospeak to Gossip Stones. Choosing tostick with the Mask of Truth willmake the hints very difficult toobtain.\n\nHints for 'on the way of the hero' arelocations that contain items that arerequired to beat the game.        "
+    "description": "Gossip Stones can be made to give hints about where items can be found.\n\nDifferent settings can be chosen to decide which item is needed to speak to Gossip Stones. Choosing to stick with the Mask of Truth will make the hints very difficult to obtain.\n\nHints for 'on the way of the hero' are locations that contain items that are required to beat the game.        "
   },
   "hint_dist": {
     "name": "Hint Distribution"
   },
   "bingosync_url": {
     "name": "Bingosync URL",
-    "description": "Enter a URL to a Bingosync bingo board inorder to have hints specific to items neededto beat the board. Goals which are completed simplyby finding a specific item are not hinted(e.g. \"Boomerang\").In addition, overworld tokensanity will alwayshint the location of Sun's Song, and shopsanitywill always hint the location of a wallet.\n\nLeaving this entry blank or providing aninvalid URL will generate generic item hintsdesigned to allow completion of most bingo goals.Non Bingosync bingo boards are not directlysupported, and will also generate generic item hints.        "
+    "description": "Enter a URL to a Bingosync bingo board in order to have hints specific to items needed to beat the board. Goals which are completed simply by finding a specific item are not hinted (e.g. \"Boomerang\"). In addition, overworld tokensanity will always hint the location of Sun's Song and Shopsanity will always hint the location of a wallet.\n\nLeaving this entry blank or providing an invalid URL will generate generic item hints designed to allow completion of most bingo goals. Non Bingosync bingo boards are not directly supported, and will also generate generic item hints.        "
   },
   "item_hints": {
     "name": "on"
@@ -720,11 +720,11 @@
   "hint_dist_user": {},
   "misc_hints": {
     "name": "Misc. Hints",
-    "description": "This setting adds some hints at locationsother than Gossip Stones:\n\nReading the Temple of Time altar as childwill tell you the locations of theSpiritual Stones (unless Maps and CompassesGive Information is enabled).\n\nReading the Temple of Time altar as adultwill tell you the locations of the Medallions(unless Maps and Compasses Give Informationis enabled), as well as the conditions forbuilding the Rainbow Bridge and getting theBoss Key for Ganon's Castle.\n\nReading the diary of Dampé the gravekeeperas adult will tell you the location of oneof the Hookshots.\n\nTalking to Ganondorf in his boss room willtell you the location of the Light Arrows.If this option is enabled and Ganondorfis reachable without Light Arrows, GossipStones will never hint the Light Arrows.\n\nPlaying a warp song will tell you whereit leads. (If warp song destinationsare vanilla, this is always enabled.)The two Owls at Lake Hylia and Death Mountainthat move you around will tell you where they go.\n\nTalking to a cursed House of Skulltularesident will tell you the reward they willgive you for removing their curse.\n\nPlacing yourself on the log at Zora Riverwhere you play the songs for the frogs willtell you what the reward is for playing allsix non warp songs.\n\nIf shuffled, right side items in the maskshop will be visible but not obtainablebefore completing the child trade quest.Mask of Truth's shelf slot is always visible.\n\nIf Shuffle Expensive Merchants is enabled, thethree characters that sell a new item will tellwhat the reward is for buying their item.If Shuffle Magic Beans is enabled, the Magic beansalesman will tell what the reward is for buyingthe 60 Rupees item.        "
+    "description": "This setting adds some hints at locations other than Gossip Stones:\n\nReading the Temple of Time altar as child will tell you the locations of the Spiritual Stones (unless Maps and CompassesGive Information is enabled).\n\nReading the Temple of Time altar as adult will tell you the locations of the Medallions (unless Maps and Compasses Give Informationis enabled), as well as the conditions for building the Rainbow Bridge and getting the Boss Key for Ganon's Castle.\n\nReading the diary of Dampé the gravekeeper as adult will tell you the location of one of the Hookshots.\n\nTalking to Ganondorf in his boss room will tell you the location of the Light Arrows. If this option is enabled and Ganondorf is reachable without Light Arrows, Gossip Stones will never hint the Light Arrows.\n\nPlaying a warp song will tell you where it leads. (If warp song destinations are vanilla, this is always enabled). The two Owls at Lake Hylia and Death Mountain that move you around will tell you where they go.\n\nTalking to a cursed House of Skulltula resident will tell you the reward they will give you for removing their curse.\n\nPlacing yourself on the log at Zora River where you play the songs for the frogs will tell you what the reward is for playing all six non warp songs.\n\nIf shuffled, right side items in the mask shop will be visible but not obtainable before completing the child trade quest. Mask of Truth's shelf slot is always visible.\n\nIf Shuffle Expensive Merchants is enabled, the three characters that sell a new item will tell what the reward is for buying their item. If Shuffle Magic Beans is enabled, the Magic bean salesman will tell what the reward is for buying the 60 Rupees item.        "
   },
   "text_shuffle": {
     "name": "Text Shuffle",
-    "description": "Will make things confusing for comedic value.\n\n'Shuffled except Important Text': For whenyou want comedy but don't want to impactgameplay. Text that has an impact on gameplayis not shuffled. This includes all hint text,key text, Good Deal! items sold in shops, randomprice scrubs, chicken count and poe count.        "
+    "description": "Will make things confusing for comedic value.\n\n'Shuffled except Important Text': For when you want comedy but don't want to impact gameplay. Text that has an impact on gameplay is not shuffled. This includes all hint text, key text, Good Deal! items sold in shops, random price scrubs, chicken count and poe count.        "
   },
   "damage_multiplier": {
     "name": "Damage Multiplier",
@@ -732,27 +732,27 @@
   },
   "deadly_bonks": {
     "name": "Bonks Do Damage",
-    "description": "When rolling, hitting a wall or objectwill hurt Link. Damage is unaffectedby the damage multiplier setting.        "
+    "description": "When rolling, hitting a wall or object will hurt Link. Damage is unaffected by the damage multiplier setting.        "
   },
   "no_collectible_hearts": {
     "name": "Hero Mode",
-    "description": "No recovery hearts will drop fromenemies or objects.(You might still find some freestandingor in chests depending on other settings.)        "
+    "description": "No recovery hearts will drop from enemies or objects (You might still find some freestanding or in chests depending on other settings.).        "
   },
   "starting_tod": {
     "name": "Starting Time of Day",
-    "description": "Change up Link's sleep routine.\n\nDaytime officially starts at 6:30,nighttime at 18:00 (6:00 PM).        "
+    "description": "Change up Link's sleep routine.\n\nDaytime officially starts at 6:30, nighttime at 18:00 (6:00 PM).        "
   },
   "blue_fire_arrows": {
     "name": "Blue Fire Arrows",
-    "description": "Ice arrows gain the power of blue fire.They can be used to melt red iceand break the mud walls in Dodongo's Cavern.        "
+    "description": "Ice arrows gain the power of blue fire. They can be used to melt red ice and break the mud walls in Dodongo's Cavern.        "
   },
   "fix_broken_actors": {
     "name": "Fix Broken Actors",
-    "description": "Enabling this fixes drops and actors that are broken in the vanilla game.\n\nThere is a deku shield drop from a pot in the Spirit Temple childside Anubis room that does not appear in the vanilla game, andlogic might require you to get a deku shield this way. \n\nThere is amagic jar on top of the Gerudo Training Ground eye statue that doesnot always refill your magic in the vanilla game.\n\nThere are a bunch of enemies as well.        "
+    "description": "Enabling this fixes drops and actors that are broken in the vanilla game.\n\nThere is a deku shield drop from a pot in the Spirit Temple child side Anubis room that does not appear in the vanilla game, and logic might require you to get a deku shield this way.\n\nThere is a magic jar on top of the Gerudo Training Ground eye statue that does not always refill your magic in the vanilla game.\n\nThere are a bunch of enemies as well.        "
   },
   "dogs_anywhere": {
     "name": "Allow dogs anywhere",
-    "description": "Allow dogs to follow link through all loading zones.Did you know that Ganondorf is deathly allergic?        "
+    "description": "Allow dogs to follow link through all loading zones. Did you know that Ganondorf is deathly allergic?        "
   },
   "prevent_guay_respawns": {
     "name": "Prevent guays from respawning",
@@ -760,50 +760,50 @@
   },
   "minimap_enemy_tracker": {
     "name": "Enable enemy tracker (BETA)",
-    "description": "In enemy drop shuffle, display enemies that have not beenchecked on the minimap.\n\nOnly displays the enemies that are currently spawned.\n\nDoesn't work perfectly for scenes like Kokiri Forest wherea single minimap is used across multiple rooms.\n\nWill display in dungeons even if the Dungeon Map hasnot been collected.\n\nIn scenes that don't have a minimap, it tends to drawsomewhere towards the bottom-middle of the screen."
+    "description": "In enemy drop shuffle, display enemies that have not been checked on the minimap.\n\nOnly displays the enemies that are currently spawned.\n\nDoesn't work perfectly for scenes like Kokiri Forest where a single minimap is used across multiple rooms.\n\nWill display in dungeons even if the Dungeon Map has not been collected.\n\nIn scenes that don't have a minimap, it tends to draw somewhere towards the bottom-middle of the screen."
   },
   "item_pool_value": {
     "name": "Item Pool",
-    "description": "'Ludicrous': Every item in the game is a majoritem. Incompatible with one major item per dungeon.\n\n'Plentiful': One additional copy of each majoritem is added.\n\n'Balanced': Original item pool.\n\n'Scarce': An extra copy of major item upgradesthat are not required to open location checksis removed (e.g. Bow upgrade, Magic upgrade).Heart Containers are removed as well. Numberof Bombchu items is reduced.\n\n'Minimal': All major item upgrades not used toopen location checks are removed. All healthupgrades are removed. Only one Bombchu item isavailable.        "
+    "description": "'Ludicrous': Every item in the game is a major item. Incompatible with one major item per dungeon.\n\n'Plentiful': One additional copy of each major item is added.\n\n'Balanced': Original item pool.\n\n'Scarce': An extra copy of major item upgrades that are not required to open location checks is removed (e.g. Bow upgrade, Magic upgrade). Heart Containers are removed as well. Number of Bombchu items is reduced.\n\n'Minimal': All major item upgrades not used to open location checks are removed. All health upgrades are removed. Only one Bombchu item is available.        "
   },
   "junk_ice_traps": {
     "name": "Ice Traps",
-    "description": "'Off': All Ice Traps are removed.\n\n'Normal': Only Ice Traps from the base item poolare placed.\n\n'Extra Ice Traps': Chance to add extra Ice Trapswhen junk items are added to the itempool.\n\n'Ice Trap Mayhem': All added junk items willbe Ice Traps.\n\n'Ice Trap Onslaught': All junk items will bereplaced by Ice Traps, even those in thebase pool.\n\n'Custom (count)' : Allows specifying a specific number of\"Junk items\" to be converted to Ice Traps in the pool.\n\n'Custom (%)' : Allows specifiying a percentage of\"Junk\" items to be converted to Ice Traps in the pool        "
+    "description": "'Off': All Ice Traps are removed.\n\n'Normal': Only Ice Traps from the base item pool are placed.\n\n'Extra Ice Traps': Chance to add extra Ice Traps when junk items are added to the item pool.\n\n'Ice Trap Mayhem': All added junk items will be Ice Traps.\n\n'Ice Trap Onslaught': All junk items will be replaced by Ice Traps, even those in the base pool.\n\n'Custom (count)' : Allows specifying a specific number of\"Junk items\" to be converted to Ice Traps in the pool.\n\n'Custom (%)' : Allows specifiying a percentage of\"Junk\" items to be converted to Ice Traps in the pool        "
   },
   "custom_ice_trap_percent": {
     "name": "Custom Ice Trap Percent",
-    "description": "Percentage of junk items that will be replacedwith Ice Traps when using 'Custom' Ice Traps setting.        "
+    "description": "Percentage of junk items that will be replaced with Ice Traps when using 'Custom' Ice Traps setting.        "
   },
   "custom_ice_trap_count": {
     "name": "Custom Ice Trap Count",
-    "description": "Number of junk items that will be replacedwith Ice Traps when using 'Custom' Ice Traps setting.        "
+    "description": "Number of junk items that will be replaced with Ice Traps when using 'Custom' Ice Traps setting.        "
   },
   "ice_trap_appearance": {
     "name": "Ice Trap Appearance",
-    "description": "Changes the categories of items Ice Traps mayappear as, both when freestanding and when inchests with Chest Size Matches Contents enabled.\n\n'Major Items Only': Ice Traps appear as MajorItems (and in large chests if CSMC enabled).\n\n'Junk Items Only': Ice Traps appear as JunkItems (and in small chests if CSMC enabled).\n\n'Anything': Ice Traps may appear as anything.        "
+    "description": "Changes the categories of items Ice Traps may appear as, both when freestanding and when in chests with Chest Size Matches Contents enabled.\n\n'Major Items Only': Ice Traps appear as Major Items (and in large chests if CSMC enabled).\n\n'Junk Items Only': Ice Traps appear as Junk Items (and in small chests if CSMC enabled).\n\n'Anything': Ice Traps may appear as anything.        "
   },
   "adult_trade_shuffle": {
     "name": "Shuffle All Selected Adult Trade Items",
-    "description": "Enable to shuffle every selected Adult Trade Item.\n\nIf disabled and at least one of \"Shuffle Adult TradeSequence Items\" is selected, Anju will always givea shuffled item even if Pocket Egg has not been shuffled.        "
+    "description": "Enable to shuffle every selected Adult Trade Item.\n\nIf disabled and at least one of \"Shuffle Adult Trade Sequence Items\" is selected, Anju will always give a shuffled item even if Pocket Egg has not been shuffled.        "
   },
   "adult_trade_start": {
     "name": "Shuffle Adult Trade Sequence Items",
-    "description": "Select the Adult Trade Sequence items to shuffle.\n\nIf \"Shuffle All Selected Adult Trade Items\" isenabled, every selected item will be shuffled.\n\nIf \"Shuffle All Selected Adult Trade Items\" isdisabled, only one of the selected items will beshuffled. If the Odd Mushroom, Eyeball Frog, orEyedrops is removed from the player's inventory dueto an expired timer or game reset, that item canbe reacquired from its <i>non-shuffled</i> location.        "
+    "description": "Select the Adult Trade Sequence items to shuffle.\n\nIf \"Shuffle All Selected Adult Trade Items\" is enabled, every selected item will be shuffled.\n\nIf \"Shuffle All Selected Adult Trade Items\" is disabled, only one of the selected items will be shuffled. If the Odd Mushroom, Eyeball Frog, or Eyedrops is removed from the player's inventory due to an expired timer or game reset, that item can be reacquired from its <i>non-shuffled</i> location.        "
   },
   "default_targeting": {
     "name": "Default Targeting Option"
   },
   "display_dpad": {
     "name": "Display D-Pad HUD",
-    "description": "Shows an additional HUD element displayingcurrent available options on the D-Pad.        "
+    "description": "Shows an additional HUD element displaying current available options on the D-Pad.        "
   },
   "dpad_dungeon_menu": {
     "name": "Display D-Pad Dungeon Info",
-    "description": "Shows separated menus on the pause screen for dungeonkeys, rewards, and Vanilla/MQ info. If disabled, thesemenus are still available by holding the A button andone of the D-Pad directions on the pause screen.        "
+    "description": "Shows separated menus on the pause screen for dungeon keys, rewards, and Vanilla/MQ info. If disabled, these menus are still available by holding the A button andone of the D-Pad directions on the pause screen.        "
   },
   "correct_model_colors": {
     "name": "Item Model Colors Match Cosmetics",
-    "description": "In-game models for items such as Heart Containers havecolors matching the colors chosen for cosmetic settings.Heart and magic drop icons also have matching colors.\n\nTunic colors are excluded from this to prevent not beingable to discern freestanding Tunics from each other.        "
+    "description": "In-game models for items such as Heart Containers have colors matching the colors chosen for cosmetic settings. Heart and magic drop icons also have matching colors.\n\nTunic colors are excluded from this to prevent not being able to discern freestanding Tunics from each other.        "
   },
   "randomize_all_cosmetics": {
     "name": "Randomize All Cosmetics",
@@ -811,7 +811,7 @@
   },
   "uninvert_y_axis_in_first_person_camera": {
     "name": "Uninvert Y-Axis in First Person Camera",
-    "description": "Uninvert the Y axis in first person camera.Note that this can make some tricks or glitchesharder to pull off.        "
+    "description": "Uninvert the Y axis in first person camera. Note that this can make some tricks or glitches harder to pull off.        "
   },
   "input_viewer": {
     "name": "Input Viewer",
@@ -819,43 +819,43 @@
   },
   "model_adult": {
     "name": "Adult Link Model",
-    "description": "Link's model will be replaced by the model selected.To add more model options, save the .zobj file todata/Models/Adult.Cosmetics options might not be applied when acustom model is in use.Caution: Any changes to Link's skeleton have the potentialto affect gameplay in significant ways and so are disallowedfor all recorded Racetime races. A note will appear at the topof the pause screen if this is the case.        "
+    "description": "Link's model will be replaced by the model selected. To add more model options, save the .zobj file to data/Models/Adult. Cosmetics options might not be applied when a custom model is in use. Caution: Any changes to Link's skeleton have the potential to affect gameplay in significant ways and so are disallowed for all recorded Racetime races. A note will appear at the top of the pause screen if this is the case.        "
   },
   "model_adult_filepicker": {
     "name": "Adult Link Model",
-    "description": "Link's model will be replaced by the model selected.Cosmetics options might not be applied when acustom model is in use.Caution: Any changes to Link's skeleton have the potentialto affect gameplay in significant ways and so are disallowedfor all recorded Racetime races. A note will appear at the topof the pause screen if this is the case.        "
+    "description": "Link's model will be replaced by the model selected. Cosmetics options might not be applied when acustom model is in use. Caution: Any changes to Link's skeleton have the potential to affect gameplay in significant ways and so are disallowed for all recorded Racetime races. A note will appear at the top of the pause screen if this is the case.        "
   },
   "model_child": {
     "name": "Child Link Model",
-    "description": "Link's model will be replaced by the model selected.To add more model options, save the .zobj file todata/Models/Child.Cosmetics options might not be applied when acustom model is in use.Caution: Any changes to Link's skeleton have the potentialto affect gameplay in significant ways and so are disallowedfor all recorded Racetime races. A note will appear at the topof the pause screen if this is the case.        "
+    "description": "Link's model will be replaced by the model selected. To add more model options, save the .zobj file todata/Models/Child. Cosmetics options might not be applied when a custom model is in use. Caution: Any changes to Link's skeleton have the potential to affect gameplay in significant ways and so are disallowed for all recorded Racetime races. A note will appear at the top of the pause screen if this is the case.        "
   },
   "model_child_filepicker": {
     "name": "Child Link Model",
-    "description": "Link's model will be replaced by the model selected.Cosmetics options might not be applied when acustom model is in use.Caution: Any changes to Link's skeleton have the potentialto affect gameplay in significant ways and so are disallowedfor all recorded Racetime races. A note will appear at the topof the pause screen if this is the case.        "
+    "description": "Link's model will be replaced by the model selected. Cosmetics options might not be applied when a custom model is in use. Caution: Any changes to Link's skeleton have the potential to affect gameplay in significant ways and so are disallowed for all recorded Racetime races. A note will appear at the top of the pause screen if this is the case.        "
   },
   "kokiri_color": {
     "name": "Kokiri Tunic",
-    "description": "'Random Choice': Choose a randomcolor from this list of colors.'Completely Random': Choose a randomcolor from any color the N64 can draw.        "
+    "description": "'Random Choice': Choose a random color from this list of colors.'Completely Random': Choose a random color from any color the N64 can draw.        "
   },
   "goron_color": {
     "name": "Goron Tunic",
-    "description": "'Random Choice': Choose a randomcolor from this list of colors.'Completely Random': Choose a randomcolor from any color the N64 can draw.        "
+    "description": "'Random Choice': Choose a random color from this list of colors.'Completely Random': Choose a random color from any color the N64 can draw.        "
   },
   "zora_color": {
     "name": "Zora Tunic",
-    "description": "'Random Choice': Choose a randomcolor from this list of colors.'Completely Random': Choose a randomcolor from any color the N64 can draw.        "
+    "description": "'Random Choice': Choose a random color from this list of colors.'Completely Random': Choose a random color from any color the N64 can draw.        "
   },
   "silver_gauntlets_color": {
     "name": "Silver Gauntlets Color",
-    "description": "'Random Choice': Choose a randomcolor from this list of colors.'Completely Random': Choose a randomcolor from any color the N64 can draw.        "
+    "description": "'Random Choice': Choose a random color from this list of colors.'Completely Random': Choose a random color from any color the N64 can draw.        "
   },
   "golden_gauntlets_color": {
     "name": "Golden Gauntlets Color",
-    "description": "'Random Choice': Choose a randomcolor from this list of colors.'Completely Random': Choose a randomcolor from any color the N64 can draw.        "
+    "description": "'Random Choice': Choose a random color from this list of colors.'Completely Random': Choose a random color from any color the N64 can draw.        "
   },
   "mirror_shield_frame_color": {
     "name": "Mirror Shield Frame Color",
-    "description": "'Random Choice': Choose a randomcolor from this list of colors.'Completely Random': Choose a randomcolor from any color the N64 can draw.        "
+    "description": "'Random Choice': Choose a random color from this list of colors.'Completely Random': Choose a random color from any color the N64 can draw.        "
   },
   "extra_equip_colors": {
     "name": "Randomize Extra Colors (Experimental)",
@@ -863,75 +863,75 @@
   },
   "heart_color": {
     "name": "Heart Color",
-    "description": "'Random Choice': Choose a randomcolor from this list of colors.'Completely Random': Choose a randomcolor from any color the N64 can draw.        "
+    "description": "'Random Choice': Choose a random color from this list of colors.'Completely Random': Choose a random color from any color the N64 can draw.        "
   },
   "magic_color": {
     "name": "Magic Color",
-    "description": "'Random Choice': Choose a randomcolor from this list of colors.'Completely Random': Choose a randomcolor from any color the N64 can draw.        "
+    "description": "'Random Choice': Choose a random color from this list of colors.'Completely Random': Choose a random color from any color the N64 can draw.        "
   },
   "a_button_color": {},
   "gui_text": {
     "name": "Start Button Color",
-    "description": "'Random Choice': Choose a randomcolor from this list of colors.'Completely Random': Choose a randomcolor from any color the N64 can draw.        "
+    "description": "'Random Choice': Choose a random color from this list of colors.'Completely Random': Choose a random color from any color the N64 can draw.        "
   },
   "b_button_color": {},
   "c_button_color": {},
   "start_button_color": {},
   "navi_color_default_inner": {
     "name": "Navi Idle Inner",
-    "description": "'Random Choice': Choose a randomcolor from this list of colors.'Completely Random': Choose a randomcolor from any color the N64 can draw.'Rainbow': Cycle through a color rainbow.        "
+    "description": "'Random Choice': Choose a random color from this list of colors.'Completely Random': Choose a random color from any color the N64 can draw.'Rainbow': Cycle through a color rainbow.        "
   },
   "navi_color_default_outer": {
     "name": "Outer",
-    "description": "'Random Choice': Choose a randomcolor from this list of colors.'Completely Random': Choose a randomcolor from any color the N64 can draw.'Rainbow': Cycle through a color rainbow.        "
+    "description": "'Random Choice': Choose a random color from this list of colors.'Completely Random': Choose a random color from any color the N64 can draw.'Rainbow': Cycle through a color rainbow.        "
   },
   "navi_color_enemy_inner": {
     "name": "Navi Targeting Enemy Inner",
-    "description": "'Random Choice': Choose a randomcolor from this list of colors.'Completely Random': Choose a randomcolor from any color the N64 can draw.'Rainbow': Cycle through a color rainbow.        "
+    "description": "'Random Choice': Choose a random color from this list of colors.'Completely Random': Choose a random color from any color the N64 can draw.'Rainbow': Cycle through a color rainbow.        "
   },
   "navi_color_enemy_outer": {
     "name": "Outer",
-    "description": "'Random Choice': Choose a randomcolor from this list of colors.'Completely Random': Choose a randomcolor from any color the N64 can draw.'Rainbow': Cycle through a color rainbow.        "
+    "description": "'Random Choice': Choose a random color from this list of colors.'Completely Random': Choose a random color from any color the N64 can draw.'Rainbow': Cycle through a color rainbow.        "
   },
   "navi_color_npc_inner": {
     "name": "Navi Targeting NPC Inner",
-    "description": "'Random Choice': Choose a randomcolor from this list of colors.'Completely Random': Choose a randomcolor from any color the N64 can draw.'Rainbow': Cycle through a color rainbow.        "
+    "description": "'Random Choice': Choose a random color from this list of colors.'Completely Random': Choose a random color from any color the N64 can draw.'Rainbow': Cycle through a color rainbow.        "
   },
   "navi_color_npc_outer": {
     "name": "Outer",
-    "description": "'Random Choice': Choose a randomcolor from this list of colors.'Completely Random': Choose a randomcolor from any color the N64 can draw.'Rainbow': Cycle through a color rainbow.        "
+    "description": "'Random Choice': Choose a random color from this list of colors.'Completely Random': Choose a random color from any color the N64 can draw.'Rainbow': Cycle through a color rainbow.        "
   },
   "navi_color_prop_inner": {
     "name": "Navi Targeting Prop Inner",
-    "description": "'Random Choice': Choose a randomcolor from this list of colors.'Completely Random': Choose a randomcolor from any color the N64 can draw.'Rainbow': Cycle through a color rainbow.        "
+    "description": "'Random Choice': Choose a random color from this list of colors.'Completely Random': Choose a random color from any color the N64 can draw.'Rainbow': Cycle through a color rainbow.        "
   },
   "navi_color_prop_outer": {
     "name": "Outer",
-    "description": "'Random Choice': Choose a randomcolor from this list of colors.'Completely Random': Choose a randomcolor from any color the N64 can draw.'Rainbow': Cycle through a color rainbow.        "
+    "description": "'Random Choice': Choose a random color from this list of colors.'Completely Random': Choose a random color from any color the N64 can draw.'Rainbow': Cycle through a color rainbow.        "
   },
   "bombchu_trail_color_inner": {
     "name": "Bombchu Trail Inner",
-    "description": "'Random Choice': Choose a randomcolor from this list of colors.'Completely Random': Choose a randomcolor from any color the N64 can draw.'Rainbow': Cycle through a color rainbow.        "
+    "description": "'Random Choice': Choose a random color from this list of colors.'Completely Random': Choose a random color from any color the N64 can draw.'Rainbow': Cycle through a color rainbow.        "
   },
   "bombchu_trail_color_outer": {
     "name": "Outer",
-    "description": "'Random Choice': Choose a randomcolor from this list of colors.'Completely Random': Choose a randomcolor from any color the N64 can draw.'Rainbow': Cycle through a color rainbow.        "
+    "description": "'Random Choice': Choose a random color from this list of colors.'Completely Random': Choose a random color from any color the N64 can draw.'Rainbow': Cycle through a color rainbow.        "
   },
   "boomerang_trail_color_inner": {
     "name": "Boomerang Trail Inner",
-    "description": "'Random Choice': Choose a randomcolor from this list of colors.'Completely Random': Choose a randomcolor from any color the N64 can draw.'Rainbow': Cycle through a color rainbow.        "
+    "description": "'Random Choice': Choose a random color from this list of colors.'Completely Random': Choose a random color from any color the N64 can draw.'Rainbow': Cycle through a color rainbow.        "
   },
   "boomerang_trail_color_outer": {
     "name": "Outer",
-    "description": "'Random Choice': Choose a randomcolor from this list of colors.'Completely Random': Choose a randomcolor from any color the N64 can draw.'Rainbow': Cycle through a color rainbow.        "
+    "description": "'Random Choice': Choose a random color from this list of colors.'Completely Random': Choose a random color from any color the N64 can draw.'Rainbow': Cycle through a color rainbow.        "
   },
   "sword_trail_color_inner": {
     "name": "Sword Trail Inner",
-    "description": "'Random Choice': Choose a randomcolor from this list of colors.'Completely Random': Choose a randomcolor from any color the N64 can draw.'Rainbow': Cycle through a color rainbow.        "
+    "description": "'Random Choice': Choose a random color from this list of colors.'Completely Random': Choose a random color from any color the N64 can draw.'Rainbow': Cycle through a color rainbow.        "
   },
   "sword_trail_color_outer": {
     "name": "Outer",
-    "description": "'Random Choice': Choose a randomcolor from this list of colors.'Completely Random': Choose a randomcolor from any color the N64 can draw.'Rainbow': Cycle through a color rainbow.        "
+    "description": "'Random Choice': Choose a random color from this list of colors.'Completely Random': Choose a random color from any color the N64 can draw.'Rainbow': Cycle through a color rainbow.        "
   },
   "sword_trail_duration": {
     "name": "Sword Trail Duration",
@@ -943,35 +943,35 @@
   },
   "disable_battle_music": {
     "name": "Disable Battle Music",
-    "description": "Disable standard battle music.This prevents background music from beinginterrupted by the battle theme when beingnear enemies.        "
+    "description": "Disable standard battle music. This prevents background music from being interrupted by the battle theme when being near enemies.        "
   },
   "speedup_music_for_last_triforce_piece": {
     "name": "Speed Up Music For Last Triforce Piece",
-    "description": "In Triforce Hunt, the music will speed up slightlyat one piece from the goal to make it more hype !Does not apply on the standard battle enemy music.        "
+    "description": "In Triforce Hunt, the music will speed up slightly at one piece from the goal to make it more hype !Does not apply on the standard battle enemy music.        "
   },
   "background_music": {
     "name": "Background Music",
-    "description": "'No Music': No background music is played.\n\n'Random': Area background music is randomized.Additional music can be loaded from data/Music/        "
+    "description": "'No Music': No background music is played.\n\n'Random': Area background music is randomized. Additional music can be loaded from data/Music/        "
   },
   "display_custom_song_names": {
     "name": "Display Custom Music Names",
-    "description": "'off': Not displayed.\n\n'At the top of the screen': The song name will be brieflydisplayed at the top of the screen at every scene transition,and permanently on the pause screen.\n\n'In pause screen only': The song name will be displayed onlyon the pause screen.        "
+    "description": "'off': Not displayed.\n\n'At the top of the screen': The song name will be briefly displayed at the top of the screen at every scene transition and permanently on the pause screen.\n\n'In pause screen only': The song name will be displayed only on the pause screen.        "
   },
   "fanfares": {
     "name": "Fanfares",
-    "description": "'No Fanfares': No fanfares (short non-looping tracks) are played.\n\n'Random': Fanfares are randomized.Additional fanfares can be loaded from data/Music/        "
+    "description": "'No Fanfares': No fanfares (short non-looping tracks) are played.\n\n'Random': Fanfares are randomized. Additional fanfares can be loaded from data/Music/        "
   },
   "ocarina_fanfares": {
     "name": "Ocarina Songs as Fanfares",
-    "description": "Include the songs that play when an ocarina songis played as part of the fanfare pool whenshuffling or disabling fanfares. Note that theseare a bit longer than most fanfares.        "
+    "description": "Include the songs that play when an ocarina song is played as part of the fanfare pool when shuffling or disabling fanfares. Note that these are a bit longer than most fanfares.        "
   },
   "custom_music_directorypicker": {
     "name": "Custom Music",
-    "description": "Upload custom music files in OoTR's dedicated .ootrs format.You can upload individual files or directories consisting of multiplecustom sequences. Implementation into the seed is controlled bythe background_music setting.Note: Multiple directories at once can only be uploaded by dragging themonto the text field.        "
+    "description": "Upload custom music files in OoTR's dedicated .ootrs format. You can upload individual files or directories consisting of multiple custom sequences. Implementation into the seed is controlled by the background_music setting. Note: Multiple directories at once can only be uploaded by dragging them onto the text field.        "
   },
   "credits_music": {
     "name": "Credits music as BGM",
-    "description": "Include the songs that play when the creditsroll as part of the music pool whenshuffling music.        "
+    "description": "Include the songs that play when the credits roll as part of the music pool when shuffling music.        "
   },
   "sfx_ocarina": {
     "name": "Ocarina",
@@ -1059,7 +1059,7 @@
   },
   "slowdown_music_when_lowhp": {
     "name": "Slow Down Music When Low HP",
-    "description": "The music will slow down slightly when being low on HP.Does not apply on the standard battle enemy music.        "
+    "description": "The music will slow down slightly when being low on HP. Does not apply on the standard battle enemy music.        "
   },
   "sfx_silver_rupee": {
     "name": "Silver Rupee Jingle",
