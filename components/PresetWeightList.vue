@@ -37,14 +37,14 @@ const items = computed(() => {
       close-icon="i-heroicons-minus"
   >
     <template #item="{ item }">
-      <div>
+      <div class="my-4">
         <ULandingCard
             :title="item.label"
             icon="i-heroicons-document-text-16-solid"
             color="primary"
         >
           <template #description>
-            <pre>{{ settings[item.key]?.description ?? '' }}</pre>
+            <DescriptionPrinter :description="settings[item.key]?.description ?? ''"/>
           </template>
         </ULandingCard>
       </div>

@@ -22,7 +22,7 @@ const items = props.options ? Object.entries(props.options as StringObject).map(
         close-icon="i-heroicons-minus"
     >
       <template #item="{ item }">
-        <span v-if="typeof item.content === 'string'">
+        <span v-if="typeof item.content === 'string'" class="ml-2">
           {{item.content}}
         </span>
         <span v-else-if="Array.isArray(item.content)">
