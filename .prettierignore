@@ -8,3 +8,5 @@
 **/.output
 **/pnpm-lock.yaml
 **/package.json
+
+**/public/*

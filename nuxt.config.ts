@@ -10,12 +10,12 @@ export default defineNuxtConfig({
     "@nuxtjs/color-mode",
     "@nuxt/fonts",
     "@nuxt/eslint",
-    '@pinia/nuxt',
+    "@pinia/nuxt",
   ],
   nitro: {
     experimental: {
-      openAPI: true
+      openAPI: true,
     },
   },
-  ssr: false
+  ssr: false,
 });
