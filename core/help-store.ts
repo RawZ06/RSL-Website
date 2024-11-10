@@ -1,24 +1,16 @@
 import { defineStore } from "pinia";
 
-export type Settings = {
-  [key: string]: {
-    name: string;
-    description: string;
-    parameters?: string;
-  };
-};
-
-export const useSettingsStore = defineStore("settings", {
+export const useHelpStore = defineStore("help", {
   state: () => ({
-    settings: {} as Settings,
+    help: "",
   }),
   actions: {
-    async fetchSettings() {
-      const { data } = await useAsyncData<Settings>("settings", () =>
-        $fetch(`/api/settings`),
+    async fetchHelp() {
+      const { data } = await useAsyncData<string>("help", () =>
+        $fetch(`/api/help`),
       );
       if (data.value) {
-        this.settings = data.value;
+        this.help = data.value;
       }
     },
   },

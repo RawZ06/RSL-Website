@@ -11,6 +11,7 @@ export default defineNuxtConfig({
     "@nuxt/fonts",
     "@nuxt/eslint",
     "@pinia/nuxt",
+    "@nuxtjs/mdc",
   ],
   nitro: {
     experimental: {

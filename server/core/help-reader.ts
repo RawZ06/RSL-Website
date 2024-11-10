@@ -1,3 +1,3 @@
-export function settingsReader(fullUrl: string) {
-  return fetch(fullUrl + "/settings/settings.json");
+export function helpReader(fullUrl: string) {
+  return fetch(fullUrl + "/help.md");
 }
