@@ -56,6 +56,9 @@ const items = computed(() => {
             color="primary"
           >
             <template #description>
+              <p class="text-xs italic font-bold my-2">
+                <UIcon name="i-heroicons-tag-16-solid" class="" /> Name to ban this setting: {{item.key}}
+              </p>
               <DescriptionPrinter
                 :description="settings[item.key]?.description ?? ''"
               />
