@@ -4,6 +4,7 @@ export type Settings = {
   [key: string]: {
     name: string;
     description: string;
+    parameters?: string;
   };
 };
 

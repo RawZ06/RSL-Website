@@ -1,4 +1,124 @@
 {
+  "constant_triforce_hunt_extras": {
+    "name": "Constant Triforce Hunt Extras",
+    "description": "When enabled, ensure that the item pool always has 25% extra Triforce pieces for Triforce Hunt."
+  },
+  "exclude_minimal_triforce_hunt": {
+    "name": "Exclude Minimal Triforce Hunt",
+    "description": "When enabled, if Triforce Hunt is enabled, prevent the item_pool setting from having the minimal option."
+  },
+  "exclude_ice_trap_misery": {
+    "name": "Exclude Ice Trap Misery",
+    "description": "When enabled, if the damage multiplier is quadruple damage or one hit KO, prevent ice trap onslaught and ice trap mayhem."
+  },
+  "disable_pot_chest_texture_independence": {
+    "name": "Disable Pot and Chest Texture Independence",
+    "description": "When enabled, match correct_chest_appearances and correct_potcrate_appearances."
+  },
+  "disable_keysanity_independence": {
+    "name": "Disable Keysanity Independence",
+    "description": "When enabled, match the shuffle_hideoutkeys and shuffle_tcgkeys settings to the selected option for shuffle_smallkeys."
+  },
+  "restrict_one_entrance_randomizer": {
+    "name": "Restrict One Entrance Randomizer",
+    "description": "When enabled, ensure that no more than one entrance pool is shuffled."
+  },
+  "random_scrubs_start_wallet": {
+    "name": "Random Scrubs Start with Wallet",
+    "description": "When enabled, add a wallet to the starting items if the Deku scrubs prices are set to random."
+  },
+  "dynamic_skulltula_wincon": {
+    "name": "Dynamic Skulltula Win Condition",
+    "description": "When enabled, roll the chance for a Golden Skulltula Token win conditional separately.",
+    "parameters": {
+      "active%": "Integer from 0 to 100. If this conditional is enabled, the chance to use it.",
+      "bridge%/gbk%/both%": "Chances for the skulltula win condition to be the bridge, the Ganon boss key, or both. Format: 'bridge%/gbk%/both%'."
+    }
+  },
+  "dynamic_heart_wincon": {
+    "name": "Dynamic Heart Win Condition",
+    "description": "When enabled, roll the chance for a heart win conditional separately.",
+    "parameters": {
+      "active%": "Integer from 0 to 100. If this conditional is enabled, the chance to use it.",
+      "bridge%/gbk%/both%": "Chances for the heart win condition to be the bridge, the Ganon boss key, or both. Format: 'bridge%/gbk%/both%'."
+    }
+  },
+  "split_collectible_bridge_conditions": {
+    "name": "Split Collectible Bridge Conditions",
+    "description": "When enabled, combine the functionality of dynamic_skulltula_wincon and dynamic_heart_wincon while preventing a seed from generating with a skulltula bridge and heart Ganon boss key (or vice versa).",
+    "parameters": {
+      "active%": "Integer from 0 to 100. If this conditional is enabled, the chance to use it.",
+      "heart%/token%": "If enabled and active, the chances for hearts to be chosen vs tokens to be chosen.",
+      "bridge%/gbk%/both%": "Whether the collectible condition should be on the bridge condition, the Ganon boss key, or both."
+    }
+  },
+  "shuffle_goal_hints": {
+    "name": "Shuffle Goal Hints",
+    "description": "When enabled, swap Way of the Hero hints to the Goal hint type.",
+    "parameters": {
+      "active%": "Integer from 0 to 100. If this conditional is enabled, the chance to use it."
+    }
+  },
+  "replace_dampe_diary_hint_with_lightarrow": {
+    "name": "Replace Dampe Diary Hint with Light Arrow Hint",
+    "description": "When this conditional is enabled, the diary hint in Dampe's hut overrides to tell the location of the light arrows instead of the hookshot."
+  },
+  "adjust_chaos_hint_distro": {
+    "name": "Adjust Chaos Hint Distribution",
+    "description": "Adjust the default Chaos hint distribution by ensuring every 'always' hint appears on two gossip stones and removing duplicate 'sometimes' hint categories."
+  },
+  "exclude_mapcompass_info_remove": {
+    "name": "Exclude Map and Compass Info Remove",
+    "description": "If enhance_map_compass is enabled, ensure that the maps and compasses exist in the game and are not simply removed."
+  },
+  "ohko_starts_with_nayrus": {
+    "name": "OHKO Starts with Nayru's Love",
+    "description": "When the one-hit KO damage multiplier is enabled, start the player with Nayru's Love."
+  },
+  "invert_dungeons_mq_count": {
+    "name": "Invert Dungeons MQ Count",
+    "description": "Swap the behavior for vanilla and Master Quest dungeons, setting every dungeon to Master Quest and adjusting as specified.",
+    "parameters": {
+      "active%": "Integer from 0 to 100. If this conditional is enabled, the chance to use it."
+    }
+  },
+  "replicate_old_child_trade": {
+    "name": "Replicate Old Child Trade Quest",
+    "description": "Emulate the old behavior for the child trade quest by randomly choosing one of three settings with varying conditions."
+  },
+  "shuffle_valley_lake_exit": {
+    "name": "Shuffle Valley-Lake Exit",
+    "description": "If both overworld entrance randomizer and owl shuffle are on, shuffle the Gerudo Valley to Lake Hylia water entrance into the pool."
+  },
+  "select_one_pots_crates_freestanding": {
+    "name": "Select One Pots, Crates, or Freestanding",
+    "description": "Randomly shuffle one of pots, crates, or freestanding items and set if they should be shuffled in overworld, dungeons, or everywhere.",
+    "parameters": {
+      "active%": "Integer from 0 to 100. If this conditional is enabled, the chance to use it.",
+      "pots%/crates%/freestanding%": "Chance to select pots/crates/freestanding setting. Format: '33/33/33'.",
+      "overworld%/dungeon%/all%": "For the selected setting, chance to shuffle locations in the overworld, dungeons, or everywhere. Format: '33/33/33'."
+    }
+  },
+  "geometrically_draw_dungeon_shortcuts": {
+    "name": "Geometrically Draw Dungeon Shortcuts",
+    "description": "Adds dungeon shortcuts based on a probability distribution: 50% chance for one shortcut, 25% chance for two, and so on."
+  },
+  "limit_overworld_entrances_in_mixed_entrance_pools": {
+    "name": "Limit Overworld Entrances in Mixed Entrance Pools",
+    "description": "Reduces the likelihood of overworld entrances appearing in mixed entrance pools."
+  },
+  "limit_mixed_pool_entrances": {
+    "name": "Limit Mixed Pool Entrances",
+    "description": "Sets a cap on the number of entrances in the mixed pool, with additional options for customization.",
+    "parameters": {
+      "max%": "Maximum number of entrances allowed in the mixed pool",
+      "omit_overworld": "Exclude overworld entrances from the mixed pool"
+    }
+  },
+  "keysanity_key_get_keyrings": {
+    "name": "Keysanity Keyrings",
+    "description": "Enforces the use of keyrings when Keysanity mode is enabled, grouping small keys together in keyrings."
+  },
   "bridge_tokens_max": {
     "name": "Ganon BossKey Token Minimum"
   },

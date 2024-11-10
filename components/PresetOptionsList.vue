@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { useSettingsStore } from "~/core/settings-store";
+import PresetConditionalList from "~/components/PresetConditionalList.vue";
 
 type StringObject = {
   [key: string]: string | number | StringObject;
@@ -35,31 +36,7 @@ const items = props.options
           <UTable :rows="item.content.map((el: string) => ({ name: el }))" />
         </span>
         <span v-else-if="item.key === 'conditionals'">
-          <UTable
-            :rows="
-              Object.entries(item.content).map(([k, v]) => ({
-                conditional: k,
-                status: (v as Array<string>)[0],
-                other: (v as Array<string>).slice(1).join(','),
-              }))
-            "
-          >
-            <template #status-data="{ row }">
-              <span v-if="!row.status">
-                <UBadge
-                  color="red"
-                  variant="solid"
-                  :ui="{ rounded: 'rounded-full' }"
-                  >Disabled</UBadge
-                >
-              </span>
-              <span v-else>
-                <UBadge variant="solid" :ui="{ rounded: 'rounded-full' }"
-                  >Enable</UBadge
-                >
-              </span>
-            </template>
-          </UTable>
+          <PresetConditionalList :item="item"/>
         </span>
       </template>
     </UAccordion>
