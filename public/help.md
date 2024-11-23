@@ -15,9 +15,10 @@ The `!seed` command allows you to generate seeds, tailored to your preferences. 
 
 - **Type:**
     - `s6` → Generates a **Beginner S6** seed.
+    - `intermediate` → Generates a **Intermediate S7** seed. It's old version of Beginner S7.
     - `classic` → Generates a **RSL S7** seed.
     - `classic-s6` → Generates a **RSL S6** seed.
-    - If no type is specified, it will default to a **Beginner S7** seed.
+    - If no type is specified, it will default to a **Beginner S7** seed. It's a new version of Beginner, easier.
 
 - **Ban Settings:**  
   You can ban multiple settings by specifying them after `ban=`, separated by semicolons (`;`).
