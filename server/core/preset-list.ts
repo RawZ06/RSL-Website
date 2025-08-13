@@ -5,5 +5,4 @@ export const PRESETS = {
   "s7-classic": "rsl_season7.json",
   "s6-classic": "rsl_season6.json",
   shuffle: "rsl_vanilla.json",
-  potsl: "rsl_potsl.json",
 } as const;
