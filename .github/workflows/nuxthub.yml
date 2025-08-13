@@ -31,3 +31,5 @@ jobs:
         uses: nuxt-hub/action@v2
         with:
           project-key: rsl-website-v1mk
+        env:
+          NUXT_UI_PRO_LICENSE: ${{ secrets.NUXT_UI_PRO_LICENSE }}
