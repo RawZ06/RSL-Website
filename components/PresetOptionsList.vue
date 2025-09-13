@@ -35,9 +35,6 @@ const items = props.options
         <span v-else-if="Array.isArray(item.content)">
           <UTable :rows="item.content.map((el: string) => ({ name: el }))" />
         </span>
-        <span v-else-if="item.key === 'conditionals'">
-          <PresetConditionalList :item="item"/>
-        </span>
       </template>
     </UAccordion>
   </div>

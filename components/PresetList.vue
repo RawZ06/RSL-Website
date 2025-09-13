@@ -15,6 +15,8 @@ const { data } = await useAsyncData<StringObject>(props.preset, () =>
   <div>
     <h1 class="text-xl font-bold my-2">Options</h1>
     <PresetOptionsList :options="data?.options as StringObject" />
+    <h1 class="text-xl font-bold my-2">Conditionals</h1>
+    <PresetConditionalList :item="data?.conditionals as StringObject"/>
     <h1 class="text-xl font-bold my-2">Multiselect</h1>
     <PresetMultiSelectList :multiselect="data?.multiselect as StringObject" />
     <h1 class="text-xl font-bold my-2">Weights</h1>

@@ -22,14 +22,14 @@ const columns = [
   <UTable
       :columns="columns"
       :rows="
-              Object.entries(props.item.content).map(([k, v]) => ({
+              Object.entries(props.item).map(([k, v]) => ({
                 conditional: {
                   name: settings[k]?.name ?? k,
                   description: settings[k]?.description ?? '',
                   parameters: settings[k]?.parameters ?? '',
                 },
-                status: (v as Array<string>)[0],
-                other: (v as Array<string>).slice(1).join(','),
+                status: (v as unknown as Array<string>)[0],
+                other: (v as unknown as Array<string>).slice(1).join(','),
               }))
             "
   >
