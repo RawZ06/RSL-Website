@@ -15,17 +15,17 @@ const help = helpStore.help;
   >
     <template #description>
       <p>RSLBeginnerBot#1457 is a Discord bot for generating seeds using predefined presets.</p>
-      <p>Type !seed help to view available options and learn the commands for seed generation.</p>
+      <p>Type /seed help to view available options and learn the commands for seed generation.</p>
       <p>The bot provides quick access to various configurations directly on Discord, making seed generation straightforward and accessible.</p>
-      <p><UButton
-          icon="i-material-symbols-info"
-          size="sm"
-          color="primary"
-          variant="link"
-          label="More informations"
-          :trailing="false"
-          @click="isOpen = true"
-      /></p>
+<!--      <p><UButton-->
+<!--          icon="i-material-symbols-info"-->
+<!--          size="sm"-->
+<!--          color="primary"-->
+<!--          variant="link"-->
+<!--          label="More informations"-->
+<!--          :trailing="false"-->
+<!--          @click="isOpen = true"-->
+<!--      /></p>-->
       <UButton
           to="https://discord.com/users/1247572932151218188"
           icon="i-logos-discord-icon"
