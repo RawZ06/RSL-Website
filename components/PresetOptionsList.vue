@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import { useSettingsStore } from "~/core/settings-store";
-import PresetConditionalList from "~/components/PresetConditionalList.vue";
 
 type StringObject = {
   [key: string]: string | number | StringObject;
@@ -33,7 +32,10 @@ const items = props.options
           {{ item.content }}
         </span>
         <span v-else-if="Array.isArray(item.content)">
-          <UTable :rows="item.content.map((el: string) => ({ name: el }))" />
+          <UTable
+              :rows="item.content.map((el: string) => ({ name: el }))"
+              :columns="[{ key: 'name', label: 'Name' }]"
+          />
         </span>
       </template>
     </UAccordion>

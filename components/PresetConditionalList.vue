@@ -51,7 +51,11 @@ const columns = [
     <template #conditional-data="{ row }">
       <span class="font-bold text-base text-wrap">{{row.conditional.name}}</span>
       <DescriptionPrinter class="italic text-sm text-wrap" :description="row.conditional.description"/>
-      <ObjectPrinter class="text-wrap text-xs italic" :obj="row.conditional.parameters"/>
+      <ObjectPrinter
+          v-if="row.conditional.parameters && typeof row.conditional.parameters === 'object'"
+          class="text-wrap text-xs italic"
+          :obj="row.conditional.parameters"
+      />
     </template>
   </UTable>
 </template>
