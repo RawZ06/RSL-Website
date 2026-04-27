@@ -18,12 +18,12 @@
     "@nuxt/icon": "^2.2.1",
     "@nuxt/ui": "^2.18.4",
     "@nuxt/ui-pro": "^1.4.1",
-    "@nuxtjs/color-mode": "^3.5.2",
-    "@nuxtjs/mdc": "^0.9.5",
+    "@nuxtjs/color-mode": "^4.0.0",
+    "@nuxtjs/mdc": "^0.21.1",
     "@nuxtjs/tailwindcss": "^6.12.1",
     "@pinia/nuxt": "^0.11.3",
     "nuxt": "^4.4.2",
-    "pinia": "^2.3.1",
+    "pinia": "^3.0.4",
     "vue": "^3.5.33"
   },
   "devDependencies": {
@@ -32,7 +32,7 @@
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-prettier": "^5.5.5",
     "prettier": "^3.8.3",
-    "typescript": "^5.9.3"
+    "typescript": "^6.0.3"
   },
   "packageManager": "pnpm@10.33.2+sha512.a90faf6feeab71ad6c6e57f94e0fe1a12f5dcc22cd754db40ae9593eb6a3e0b6b12e3540218bb37ae083404b1f2ce6db2a4121e979829b4aff94b99f49da1cf8"
 }
