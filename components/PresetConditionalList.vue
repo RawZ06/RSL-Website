@@ -12,16 +12,16 @@ const props = defineProps<{
 }>();
 
 const columns = [
-  { key: 'conditional', label: 'Description', rowClass: 'max-w-[200px] md:max-w-[500px]' },
-  { key: 'status', label: 'Status' },
-  { key: 'other', label: 'Other' },
+  { accessorKey: 'conditional', header: 'Description' },
+  { accessorKey: 'status', header: 'Status' },
+  { accessorKey: 'other', header: 'Other' },
 ];
 </script>
 
 <template>
   <UTable
       :columns="columns"
-      :rows="
+      :data="
               Object.entries(props.item).map(([k, v]) => ({
                 conditional: {
                   name: settings[k]?.name ?? k,
@@ -33,29 +33,31 @@ const columns = [
               }))
             "
   >
-    <template #status-data="{ row }">
-      <span v-if="!row.status">
+    <template #status-cell="{ row }">
+      <span v-if="!row.original.status">
         <UBadge
-            color="red"
+            color="error"
             variant="solid"
-            :ui="{ rounded: 'rounded-full' }"
+            class="rounded-full"
         >Disabled</UBadge
         >
       </span>
       <span v-else>
-        <UBadge variant="solid" :ui="{ rounded: 'rounded-full' }"
+        <UBadge variant="solid" class="rounded-full"
         >Enable</UBadge
         >
       </span>
     </template>
-    <template #conditional-data="{ row }">
-      <span class="font-bold text-base text-wrap">{{row.conditional.name}}</span>
-      <DescriptionPrinter class="italic text-sm text-wrap" :description="row.conditional.description"/>
-      <ObjectPrinter
-          v-if="row.conditional.parameters && typeof row.conditional.parameters === 'object'"
-          class="text-wrap text-xs italic"
-          :obj="row.conditional.parameters"
-      />
+    <template #conditional-cell="{ row }">
+      <div class="flex flex-col">
+        <span class="font-bold text-base text-wrap">{{row.original.conditional.name}}</span>
+        <DescriptionPrinter class="italic text-sm text-wrap" :description="row.original.conditional.description"/>
+        <ObjectPrinter
+            v-if="row.original.conditional.parameters && typeof row.original.conditional.parameters === 'object'"
+            class="text-wrap text-xs italic"
+            :obj="row.original.conditional.parameters"
+        />
+      </div>
     </template>
   </UTable>
 </template>

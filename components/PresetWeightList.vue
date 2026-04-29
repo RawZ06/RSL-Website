@@ -37,52 +37,50 @@ const items = computed(() => {
         icon="i-heroicons-magnifying-glass-20-solid"
         size="xl"
         color="primary"
-        :trailing="false"
         placeholder="Search..."
       />
     </div>
     <UAccordion
       :items="items"
       multiple
-      size="sm"
-      open-icon="i-heroicons-plus"
-      close-icon="i-heroicons-minus"
     >
-      <template #item="{ item }">
-        <div class="my-4">
-          <ULandingCard
-            :title="item.label"
-            icon="i-heroicons-document-text-16-solid"
-            color="primary"
-          >
-            <template #description>
+      <template #body="{ item }">
+        <div class="p-4 pt-0">
+          <div class="my-4">
+            <UCard>
+              <template #header>
+                <div class="flex items-center gap-2">
+                  <UIcon name="i-heroicons-document-text-16-solid" class="size-5" />
+                  <h3 class="font-bold">{{ item.label }}</h3>
+                </div>
+              </template>
               <p class="text-xs italic font-bold my-2">
                 <UIcon name="i-heroicons-tag-16-solid" class="" /> Name to ban this setting: {{item.key}}
               </p>
               <DescriptionPrinter
                 :description="settings[item.key]?.description ?? ''"
               />
+            </UCard>
+          </div>
+          <UTable :data="item.content">
+            <template #value-cell="{ row }"> {{ row.original.value }}% </template>
+            <template #status-cell="{ row }">
+              <span v-if="row.original.status">
+                <UBadge
+                  color="error"
+                  variant="solid"
+                  class="rounded-full"
+                  >Disabled</UBadge
+                >
+              </span>
+              <span v-else>
+                <UBadge variant="solid" class="rounded-full"
+                  >Enable</UBadge
+                >
+              </span>
             </template>
-          </ULandingCard>
+          </UTable>
         </div>
-        <UTable :rows="item.content">
-          <template #value-data="{ row }"> {{ row.value }}% </template>
-          <template #status-data="{ row }">
-            <span v-if="row.status">
-              <UBadge
-                color="red"
-                variant="solid"
-                :ui="{ rounded: 'rounded-full' }"
-                >Disabled</UBadge
-              >
-            </span>
-            <span v-else>
-              <UBadge variant="solid" :ui="{ rounded: 'rounded-full' }"
-                >Enable</UBadge
-              >
-            </span>
-          </template>
-        </UTable>
       </template>
     </UAccordion>
   </div>

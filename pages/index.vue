@@ -26,7 +26,7 @@ const isMobile = useMobile();
         class="w-full"
         :orientation="isMobile ? 'vertical' : 'horizontal'"
       >
-        <template #item="{ item }">
+        <template #content="{ item }">
           <PresetList :preset="item.key" />
         </template>
       </UTabs>
