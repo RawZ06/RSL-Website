@@ -2,7 +2,7 @@
 import PresetList from "~/components/PresetList.vue";
 import { useSettingsStore } from "~/core/settings-store";
 import { useMobile } from "~/hooks/useMobile";
-import {useHelpStore} from "~/core/help-store";
+import { useHelpStore } from "~/core/help-store";
 
 const { data, status } = await useAsyncData<string[]>("presets", () =>
   $fetch(`/api/preset`),
@@ -19,7 +19,7 @@ const isMobile = useMobile();
 
 <template>
   <div class="container mx-auto mt-3">
-    <DiscordBotInformation/>
+    <DiscordBotInformation />
     <template v-if="data && status == 'success'">
       <UTabs
         :items="tabs"

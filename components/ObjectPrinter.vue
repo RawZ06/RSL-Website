@@ -6,8 +6,12 @@ const props = defineProps<{
 </script>
 
 <template>
-  <div v-for="[k, v] in Object.entries(props.obj)" :key="k" :class="props.class">
-    - {{k}} : {{v}}
+  <div
+    v-for="[k, v] in Object.entries(props.obj)"
+    :key="k"
+    :class="props.class"
+  >
+    - {{ k }} : {{ v }}
   </div>
 </template>
 

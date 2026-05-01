@@ -20,23 +20,32 @@ const items = props.options
 
 <template>
   <div>
-    <UAccordion
-      :items="items"
-      multiple
-    >
+    <UAccordion :items="items" multiple>
       <template #body="{ item }">
         <div class="p-4 pt-0">
-          <span v-if="typeof item.content === 'string' || typeof item.content === 'number'" class="ml-2">
-            <UBadge color="neutral" variant="outline">{{item.content}}</UBadge>
+          <span
+            v-if="
+              typeof item.content === 'string' ||
+              typeof item.content === 'number'
+            "
+            class="ml-2"
+          >
+            <UBadge color="neutral" variant="outline">{{
+              item.content
+            }}</UBadge>
           </span>
           <span v-else-if="Array.isArray(item.content)">
             <UTable
-                :data="item.content.map((el: string) => ({ name: el }))"
-                :columns="[{ accessorKey: 'name', header: 'Name' }]"
+              :data="item.content.map((el: string) => ({ name: el }))"
+              :columns="[{ accessorKey: 'name', header: 'Name' }]"
             />
           </span>
           <span v-else-if="typeof item.content === 'boolean'">
-            <UBadge v-if="item.content" color="success" variant="solid" class="rounded-full"
+            <UBadge
+              v-if="item.content"
+              color="success"
+              variant="solid"
+              class="rounded-full"
               >true</UBadge
             >
             <UBadge v-else color="danger" variant="solid" class="rounded-full"
