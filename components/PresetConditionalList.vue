@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import {useSettingsStore} from "~/core/settings-store";
+import { useSettingsStore } from "~/core/settings-store";
 import ObjectPrinter from "~/components/ObjectPrinter.vue";
 
 type StringObject = {
@@ -12,50 +12,57 @@ const props = defineProps<{
 }>();
 
 const columns = [
-  { key: 'conditional', label: 'Description', rowClass: 'max-w-[200px] md:max-w-[500px]' },
-  { key: 'status', label: 'Status' },
-  { key: 'other', label: 'Other' },
+  { accessorKey: "conditional", header: "Description" },
+  { accessorKey: "status", header: "Status" },
+  { accessorKey: "other", header: "Other" },
 ];
 </script>
 
 <template>
   <UTable
-      :columns="columns"
-      :rows="
-              Object.entries(props.item).map(([k, v]) => ({
-                conditional: {
-                  name: settings[k]?.name ?? k,
-                  description: settings[k]?.description ?? '',
-                  parameters: settings[k]?.parameters ?? '',
-                },
-                status: (v as unknown as Array<string>)[0],
-                other: (v as unknown as Array<string>).slice(1).join(','),
-              }))
-            "
+    :columns="columns"
+    :data="
+      Object.entries(props.item).map(([k, v]) => ({
+        conditional: {
+          name: settings[k]?.name ?? k,
+          description: settings[k]?.description ?? '',
+          parameters: settings[k]?.parameters ?? '',
+        },
+        status: (v as unknown as Array<string>)[0],
+        other: (v as unknown as Array<string>).slice(1).join(','),
+      }))
+    "
   >
-    <template #status-data="{ row }">
-      <span v-if="!row.status">
-        <UBadge
-            color="red"
-            variant="solid"
-            :ui="{ rounded: 'rounded-full' }"
-        >Disabled</UBadge
+    <template #status-cell="{ row }">
+      <span v-if="!row.original.status">
+        <UBadge color="error" variant="solid" class="rounded-full"
+          >Disabled</UBadge
         >
       </span>
       <span v-else>
-        <UBadge variant="solid" :ui="{ rounded: 'rounded-full' }"
-        >Enable</UBadge
-        >
+        <UBadge variant="solid" class="rounded-full">Enable</UBadge>
       </span>
     </template>
-    <template #conditional-data="{ row }">
-      <span class="font-bold text-base text-wrap">{{row.conditional.name}}</span>
-      <DescriptionPrinter class="italic text-sm text-wrap" :description="row.conditional.description"/>
-      <ObjectPrinter class="text-wrap text-xs italic" :obj="row.conditional.parameters"/>
+    <template #conditional-cell="{ row }">
+      <div class="flex flex-col">
+        <span class="font-bold text-base text-wrap">{{
+          row.original.conditional.name
+        }}</span>
+        <DescriptionPrinter
+          class="italic text-sm text-wrap"
+          :description="row.original.conditional.description"
+        />
+        <ObjectPrinter
+          v-if="
+            row.original.conditional.parameters &&
+            typeof row.original.conditional.parameters === 'object'
+          "
+          class="text-wrap text-xs italic"
+          :obj="row.original.conditional.parameters"
+        />
+      </div>
     </template>
   </UTable>
 </template>
 
-<style scoped>
-
-</style>
+<style scoped></style>

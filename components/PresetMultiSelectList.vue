@@ -20,42 +20,36 @@ const items = props.multiselect
 
 <template>
   <div>
-    <UAccordion
-      :items="items"
-      multiple
-      size="sm"
-      open-icon="i-heroicons-plus"
-      close-icon="i-heroicons-minus"
-    >
-      <template #item="{ item }">
-        <div class="my-4">
-          <ULandingCard
-            :title="item.label"
-            icon="i-heroicons-document-text-16-solid"
-            color="primary"
-          >
-            <template #description>
+    <UAccordion :items="items" multiple>
+      <template #body="{ item }">
+        <div class="p-4 pt-0">
+          <div class="my-4">
+            <UCard>
+              <template #header>
+                <div class="flex items-center gap-2">
+                  <UIcon
+                    name="i-heroicons-document-text-16-solid"
+                    class="size-5"
+                  />
+                  <h3 class="font-bold">{{ item.label }}</h3>
+                </div>
+              </template>
               <DescriptionPrinter
                 :description="settings[item.key]?.description ?? ''"
               />
-            </template>
-          </ULandingCard>
-        </div>
-        <div class="ml-2">
-          <span v-if="item.content === 0">
-            <UBadge
-              color="red"
-              variant="solid"
-              :ui="{ rounded: 'rounded-full' }"
-              >Disabled</UBadge
-            >
-          </span>
-          <span v-else-if="item.content === 100">
-            <UBadge variant="solid" :ui="{ rounded: 'rounded-full' }"
-              >Enable</UBadge
-            >
-          </span>
-          <span v-else> {{ item.content }}% </span>
+            </UCard>
+          </div>
+          <div class="ml-2">
+            <span v-if="item.content === 0">
+              <UBadge color="error" variant="solid" class="rounded-full"
+                >Disabled</UBadge
+              >
+            </span>
+            <span v-else-if="item.content === 100">
+              <UBadge variant="solid" class="rounded-full">Enable</UBadge>
+            </span>
+            <span v-else> {{ item.content }}% </span>
+          </div>
         </div>
       </template>
     </UAccordion>

@@ -11,11 +11,24 @@ const props = defineProps<{
 const settingsStore = useSettingsStore();
 const settings = settingsStore.settings;
 const allItems = props.weights
-  ? Object.entries(props.weights as StringObject).map(([k, v]) => ({
-      key: k,
-      label: settings[k]?.name ?? k,
-      content: parseValues(v as Record<string, number>),
-    }))
+  ? Object.entries(props.weights as StringObject).map(([k, v]) => {
+      const content = parseValues(v as Record<string, number>);
+      const enabledOptions = content.filter((o) => !o.status);
+      let badge = null;
+
+      if (enabledOptions.length > 1) {
+        badge = { label: "random", color: "error" as const };
+      } else if (enabledOptions.length === 1) {
+        badge = { label: enabledOptions[0].name, color: "primary" as const };
+      }
+
+      return {
+        key: k,
+        label: settings[k]?.name ?? k,
+        content,
+        badge,
+      };
+    })
   : [];
 const searchValue = ref("");
 const items = computed(() => {
@@ -37,52 +50,59 @@ const items = computed(() => {
         icon="i-heroicons-magnifying-glass-20-solid"
         size="xl"
         color="primary"
-        :trailing="false"
         placeholder="Search..."
       />
     </div>
-    <UAccordion
-      :items="items"
-      multiple
-      size="sm"
-      open-icon="i-heroicons-plus"
-      close-icon="i-heroicons-minus"
-    >
-      <template #item="{ item }">
-        <div class="my-4">
-          <ULandingCard
-            :title="item.label"
-            icon="i-heroicons-document-text-16-solid"
-            color="primary"
+    <UAccordion :items="items" multiple>
+      <template #default="{ item }">
+        <div class="flex items-center gap-2">
+          <span>{{ item.label }}</span>
+          <UBadge
+            v-if="item.badge"
+            :color="item.badge.color"
+            variant="solid"
+            size="xs"
           >
-            <template #description>
-              <p class="text-xs italic font-bold my-2">
-                <UIcon name="i-heroicons-tag-16-solid" class="" /> Name to ban this setting: {{item.key}}
-              </p>
+            {{ item.badge.label }}
+          </UBadge>
+        </div>
+      </template>
+      <template #body="{ item }">
+        <div class="p-4 pt-0">
+          <div class="my-4">
+            <UCard>
+              <template #header>
+                <div class="flex items-center gap-2">
+                  <UIcon
+                    name="i-heroicons-document-text-16-solid"
+                    class="size-5"
+                  />
+                  <h3 class="font-bold">{{ item.label }}</h3>
+                </div>
+              </template>
               <DescriptionPrinter
                 :description="settings[item.key]?.description ?? ''"
               />
+            </UCard>
+          </div>
+          <UTable :data="item.content">
+            <template #value-cell="{ row }">
+              {{ row.original.value }}%
             </template>
-          </ULandingCard>
+            <template #status-cell="{ row }">
+              <span v-if="row.original.status">
+                <UBadge color="red" variant="solid" class="rounded-full"
+                  >Disabled</UBadge
+                >
+              </span>
+              <span v-else>
+                <UBadge color="green" variant="solid" class="rounded-full"
+                  >Enable</UBadge
+                >
+              </span>
+            </template>
+          </UTable>
         </div>
-        <UTable :rows="item.content">
-          <template #value-data="{ row }"> {{ row.value }}% </template>
-          <template #status-data="{ row }">
-            <span v-if="row.status">
-              <UBadge
-                color="red"
-                variant="solid"
-                :ui="{ rounded: 'rounded-full' }"
-                >Disabled</UBadge
-              >
-            </span>
-            <span v-else>
-              <UBadge variant="solid" :ui="{ rounded: 'rounded-full' }"
-                >Enable</UBadge
-              >
-            </span>
-          </template>
-        </UTable>
       </template>
     </UAccordion>
   </div>
