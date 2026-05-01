@@ -7,7 +7,7 @@ on:
 
 jobs:
   release:
-    uses: RawZ06-Studio/.github/.github/workflows/node-ci-release.yml@main
+    uses: RawZ06-Studio/.github/.github/workflows/node-ci-preprod.yml@main
     permissions:
       contents: write
     with:
